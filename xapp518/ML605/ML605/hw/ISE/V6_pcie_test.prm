@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\ISE//V6_pcie_test -s 16384 -u 0000 F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/pcie_isp_top.bit -spi 
+
+PROM F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\ISE\V6_pcie_test.prm map: Thu May 16 23:46:26 2019
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          16384K
+PROM start    0000:0000
+PROM end      00ff:ffff
+PROM checksum de0d933e
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0022:1d4f     May 16 23:44:36 2019 F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/pcie_isp_top.bit

@@ -1,0 +1,315 @@
+##-----------------------------------------------------------------------------
+##
+## (c) Copyright 2010-2011 Xilinx, Inc. All rights reserved.
+##
+## This file contains confidential and proprietary information
+## of Xilinx, Inc. and is protected under U.S. and
+## international copyright and other intellectual property
+## laws.
+##
+## DISCLAIMER
+## This disclaimer is not a license and does not grant any
+## rights to the materials distributed herewith. Except as
+## otherwise provided in a valid license issued to you by
+## Xilinx, and to the maximum extent permitted by applicable
+## law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND
+## WITH ALL FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES
+## AND CONDITIONS, EXPRESS, IMPLIED, OR STATUTORY, INCLUDING
+## BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, NON-
+## INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE; and
+## (2) Xilinx shall not be liable (whether in contract or tort,
+## including negligence, or under any other theory of
+## liability) for any loss or damage of any kind or nature
+## related to, arising under or in connection with these
+## materials, including for any direct, or any indirect,
+## special, incidental, or consequential loss or damage
+## (including loss of data, profits, goodwill, or any type of
+## loss or damage suffered as a result of any action brought
+## by a third party) even if such damage or loss was
+## reasonably foreseeable or Xilinx had been advised of the
+## possibility of the same.
+##
+## CRITICAL APPLICATIONS
+## Xilinx products are not designed or intended to be fail-
+## safe, or for use in any application requiring fail-safe
+## performance, such as life-support or safety devices or
+## systems, Class III medical devices, nuclear facilities,
+## applications related to the deployment of airbags, or any
+## other applications that could lead to death, personal
+## injury, or severe property or environmental damage
+## (individually and collectively, "Critical
+## Applications"). Customer assumes the sole risk and
+## liability of any use of Xilinx products in Critical
+## Applications, subject only to applicable laws and
+## regulations governing limitations on product liability.
+##
+## THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS
+## PART OF THIS FILE AT ALL TIMES.
+##
+##-----------------------------------------------------------------------------
+## Project    : Series-7 Integrated Block for PCI Express
+## File       : xilinx_pcie_2_1_ep_7x_08_lane_gen1_xc7k325t-ffg900-2_KC705_REVC.ucf
+## Version    : 1.6
+
+###############################################################################
+# Define Device, Package And Speed Grade
+###############################################################################
+
+CONFIG PART = xc7k325t-ffg900-2;
+
+#########################################################################################################################
+# User Constraints
+#########################################################################################################################
+
+###############################################################################
+# User Time Names / User Time Groups / Time Specs
+###############################################################################
+
+###############################################################################
+# User Physical Constraints
+###############################################################################
+
+#########################################################################################################################
+# End User Constraints
+#########################################################################################################################
+#
+#
+#
+#########################################################################################################################
+# PCIE Core Constraints
+#########################################################################################################################
+
+###############################################################################
+# Pinout and Related I/O Constraints
+###############################################################################
+
+#
+# SYS reset (input) signal.  The sys_reset_n signal should be
+# obtained from the PCI Express interface if possible.  For
+# slot based form factors, a system reset signal is usually
+# present on the connector.  For cable based form factors, a
+# system reset signal may not be available.  In this case, the
+# system reset signal must be generated locally by some form of
+# supervisory circuit.  You may change the IOSTANDARD and LOC
+# to suit your requirements and VCCO voltage banking rules.
+# Some 7 series devices do not have 3.3 V I/Os available.
+# Therefore the appropriate level shift is required to operate
+# with these devices that contain only 1.8 V banks.
+#
+
+NET "sys_rst_n" TIG;
+NET "sys_rst_n" LOC = G25 | IOSTANDARD = LVCMOS25 | NODELAY ;
+
+#
+# LED Status Indicators for Example Design.
+# LED 0-2 should be ON if link is up and functioning correctly
+# LED 3 should be blinking if user applicaiton is receiving valid clock
+#
+NET  "led_0"              LOC = AB8     | IOSTANDARD = LVCMOS15;  # System Reset
+NET  "led_1"              LOC = AA8     | IOSTANDARD = LVCMOS15;  # User Reset
+NET  "led_2"              LOC = AC9     | IOSTANDARD = LVCMOS15;  # User Link Up
+NET  "led_3"              LOC = AB9     | IOSTANDARD = LVCMOS15;  # User Clk Heartbeat
+
+NET  "led_5"              LOC = G19     | IOSTANDARD = LVCMOS15;  # Error0
+NET  "led_6"              LOC = E18     | IOSTANDARD = LVCMOS15;  # Error1
+NET  "led_7"              LOC = F16     | IOSTANDARD = LVCMOS15;  # Error2
+
+#
+# SYS clock 100 MHz (input) signal. The sys_clk_p and sys_clk_n
+# signals are the PCI Express reference clock. Virtex-7 GT
+# Transceiver architecture requires the use of a dedicated clock
+# resources (FPGA input pins) associated with each GT Transceiver.
+# To use these pins an IBUFDS primitive (refclk_ibuf) is
+# instantiated in user's design.
+# Please refer to the Virtex-7 GT Transceiver User Guide
+# (UG) for guidelines regarding clock resource selection.
+#
+INST "pcie_pio_app/refclk_ibuf" LOC = IBUFDS_GTE2_X0Y1;
+#
+# Transceiver instance placement.  This constraint selects the
+# transceivers to be used, which also dictates the pinout for the
+# transmit and receive differential pairs.  Please refer to the
+# Virtex-7 GT Transceiver User Guide (UG) for more information.
+#
+
+# PCIe Lane 0
+INST "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/gtx_channel.gtxe2_channel_i" LOC = GTXE2_CHANNEL_X0Y7;
+# PCIe Lane 1
+INST "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].gt_wrapper_i/gtx_channel.gtxe2_channel_i" LOC = GTXE2_CHANNEL_X0Y6;
+# PCIe Lane 2
+INST "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].gt_wrapper_i/gtx_channel.gtxe2_channel_i" LOC = GTXE2_CHANNEL_X0Y5;
+# PCIe Lane 3
+INST "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].gt_wrapper_i/gtx_channel.gtxe2_channel_i" LOC = GTXE2_CHANNEL_X0Y4;
+# PCIe Lane 4
+INST "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[4].gt_wrapper_i/gtx_channel.gtxe2_channel_i" LOC = GTXE2_CHANNEL_X0Y3;
+# PCIe Lane 5
+INST "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[5].gt_wrapper_i/gtx_channel.gtxe2_channel_i" LOC = GTXE2_CHANNEL_X0Y2;
+# PCIe Lane 6
+INST "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[6].gt_wrapper_i/gtx_channel.gtxe2_channel_i" LOC = GTXE2_CHANNEL_X0Y1;
+# PCIe Lane 7
+INST "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[7].gt_wrapper_i/gtx_channel.gtxe2_channel_i" LOC = GTXE2_CHANNEL_X0Y0;
+
+
+#
+# PCI Express Block placement. This constraint selects the PCI Express
+# Block to be used.
+#
+
+INST "pcie_pio_app/pcie_7x_v1_6_i/pcie_top_i/pcie_7x_i/pcie_block_i" LOC = PCIE_X0Y0;
+
+#
+# BlockRAM placement
+#
+INST "pcie_pio_app/pcie_7x_v1_6_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[3].ram/use_tdp.ramb36/bram36_tdp_bl.bram36_tdp_bl" LOC = RAMB36_X5Y35 ;
+INST "pcie_pio_app/pcie_7x_v1_6_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[2].ram/use_tdp.ramb36/bram36_tdp_bl.bram36_tdp_bl" LOC = RAMB36_X4Y36 ;
+INST "pcie_pio_app/pcie_7x_v1_6_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[1].ram/use_tdp.ramb36/bram36_tdp_bl.bram36_tdp_bl" LOC = RAMB36_X4Y35 ;
+INST "pcie_pio_app/pcie_7x_v1_6_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_rx/brams[0].ram/use_tdp.ramb36/bram36_tdp_bl.bram36_tdp_bl" LOC = RAMB36_X4Y34 ;
+INST "pcie_pio_app/pcie_7x_v1_6_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[0].ram/use_tdp.ramb36/bram36_tdp_bl.bram36_tdp_bl" LOC = RAMB36_X4Y33 ;
+INST "pcie_pio_app/pcie_7x_v1_6_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[1].ram/use_tdp.ramb36/bram36_tdp_bl.bram36_tdp_bl" LOC = RAMB36_X4Y32 ;
+INST "pcie_pio_app/pcie_7x_v1_6_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[2].ram/use_tdp.ramb36/bram36_tdp_bl.bram36_tdp_bl" LOC = RAMB36_X4Y31 ;
+INST "pcie_pio_app/pcie_7x_v1_6_i/pcie_top_i/pcie_7x_i/pcie_bram_top/pcie_brams_tx/brams[3].ram/use_tdp.ramb36/bram36_tdp_bl.bram36_tdp_bl" LOC = RAMB36_X4Y30 ;
+
+# Lock down the FIFO
+#INST "pcie_7x_v1_6_i/FPC_top_i/pr_loader_i/PIO_FPC_i/PIO_EP_FPC_inst/data_transfer_i/fastConfigFIFO_i/U0/xst_fifo_generator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/gextw[1].gnll_fifo.inst_extd/gonep.inst_prim/gf18e1_inst.sngfifo18e1" LOC = RAMB18_X4Y74 ;
+
+
+###############################################################################
+# Timing Constraints
+###############################################################################
+
+NET "pcie_pio_app/sys_clk" TNM_NET = "SYSCLK" ;
+NET "pcie_pio_app/ext_clk.pipe_clock_i/clk_125mhz" TNM_NET = "CLK_125" ;
+NET "pcie_pio_app/ext_clk.pipe_clock_i/clk_250mhz" TNM_NET = "CLK_250" ;
+NET "pcie_pio_app/ext_clk.pipe_clock_i/userclk1" TNM_NET = "CLK_USERCLK" ;
+NET "pcie_pio_app/ext_clk.pipe_clock_i/userclk2" TNM_NET = "CLK_USERCLK2" ;
+NET "pcie_pio_app/ext_clk.pipe_clock_i/clkbpi" TNM_NET = "CLK_BPI" ;
+
+TIMESPEC "TS_SYSCLK"  = PERIOD "SYSCLK" 100 MHz HIGH 50 % ;
+TIMESPEC "TS_CLK_125"  = PERIOD "CLK_125" TS_SYSCLK*1.25 HIGH 50 % PRIORITY 1;
+#TIMESPEC "TS_CLK_250" = PERIOD "CLK_250" TS_SYSCLK*2.5 HIGH 50 % PRIORITY 2;
+TIMESPEC "TS_CLK_USERCLK" = PERIOD "CLK_USERCLK" TS_SYSCLK*2.5 HIGH 50 %;
+TIMESPEC "TS_CLK_USERCLK2" = PERIOD "CLK_USERCLK2" TS_SYSCLK*2.5 HIGH 50 %;
+TIMESPEC "TS_CLK_BPI"  = PERIOD "CLK_BPI" TS_SYSCLK*0.1 HIGH 50 % PRIORITY 1;
+
+
+INST "pcie_pio_app/ext_clk.pipe_clock_i/mmcm_i"  LOC = MMCME2_ADV_X0Y2;
+
+PIN "pcie_pio_app/pcie_7x_v1_6_i/pcie_top_i/pcie_7x_i/pcie_block_i.PLPHYLNKUPN" TIG;
+PIN "pcie_pio_app/pcie_7x_v1_6_i/pcie_top_i/pcie_7x_i/pcie_block_i.PLRECEIVEDHOTRST" TIG;
+
+PIN "pcie_pio_app/ext_clk.pipe_clock_i/mmcm_i.RST" TIG ;
+NET "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/user_resetdone*" TIG;
+NET "pcie_pio_app/ext_clk.pipe_clock_i/pclk_sel" TIG;
+NET "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_rate.pipe_rate_i/*" TNM_NET = FFS "MC_PIPE";
+NET "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[1].pipe_rate.pipe_rate_i/*" TNM_NET = FFS "MC_PIPE";
+NET "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[2].pipe_rate.pipe_rate_i/*" TNM_NET = FFS "MC_PIPE";
+NET "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[3].pipe_rate.pipe_rate_i/*" TNM_NET = FFS "MC_PIPE";
+NET "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[4].pipe_rate.pipe_rate_i/*" TNM_NET = FFS "MC_PIPE";
+NET "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[5].pipe_rate.pipe_rate_i/*" TNM_NET = FFS "MC_PIPE";
+NET "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[6].pipe_rate.pipe_rate_i/*" TNM_NET = FFS "MC_PIPE";
+NET "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[7].pipe_rate.pipe_rate_i/*" TNM_NET = FFS "MC_PIPE";
+
+TIMESPEC "TS_PIPE_RATE" = FROM "MC_PIPE" TS_CLK_USERCLK*0.5;
+
+
+NET "pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_reset.pipe_reset_i/cpllreset" TIG;
+NET "pcie_pio_app/ext_clk.pipe_clock_i/clk_125mhz" TIG;
+
+
+# Input keep/save net constraints
+#
+#NET "programmer_i/ila_t16_d96_i/U0/iTRIG_IN<*" S;
+#NET "programmer_i/ila_t16_d96_i/U0/iTRIG_IN<*" KEEP;
+#NET "programmer_i/ila_t16_d96_i/U0/iDATA<*" S;
+#NET "programmer_i/ila_t16_d96_i/U0/iDATA<*" KEEP;
+
+###############################################################################
+# Physical Constraints
+###############################################################################
+#NET  FLASH_WAIT                LOC = U29  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L15P_T2_DQS_RDWR_B_14
+#NET  A_pin<26>                 LOC = M22  | IOSTANDARD=LVCMOS25; # Bank  15 VCCO - VCC2V5_FPGA - IO_L24P_T3_RS1_15
+#NET  A_pin<25>                 LOC = M23  | IOSTANDARD=LVCMOS25;
+NET A_pin<24>                 LOC = N26  | IOSTANDARD=LVCMOS25; # Bank  15 VCCO - VCC2V5_FPGA - IO_L18N_T2_A23_15
+NET A_pin<23>                 LOC = N19  | IOSTANDARD=LVCMOS25; # Bank  15 VCCO - VCC2V5_FPGA - IO_L19P_T3_A22_15
+NET A_pin<22>                 LOC = N20  | IOSTANDARD=LVCMOS25; # Bank  15 VCCO - VCC2V5_FPGA - IO_L19N_T3_A21_VREF_15
+NET A_pin<21>                 LOC = N21  | IOSTANDARD=LVCMOS25; # Bank  15 VCCO - VCC2V5_FPGA - IO_L20P_T3_A20_15
+NET A_pin<20>                 LOC = N22  | IOSTANDARD=LVCMOS25; # Bank  15 VCCO - VCC2V5_FPGA - IO_L20N_T3_A19_15
+NET A_pin<19>                 LOC = N24  | IOSTANDARD=LVCMOS25; # Bank  15 VCCO - VCC2V5_FPGA - IO_L21N_T3_DQS_A18_15
+NET A_pin<18>                 LOC = P21  | IOSTANDARD=LVCMOS25; # Bank  15 VCCO - VCC2V5_FPGA - IO_L22P_T3_A17_15
+NET A_pin<17>                 LOC = P22  | IOSTANDARD=LVCMOS25; # Bank  15 VCCO - VCC2V5_FPGA - IO_L22N_T3_A16_15
+NET A_pin<16>                 LOC = V27  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L16N_T2_A15_D31_14
+NET A_pin<15>                 LOC = V29  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L17P_T2_A14_D30_14
+NET A_pin<14>                 LOC = V30  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L17N_T2_A13_D29_14
+NET A_pin<13>                 LOC = V25  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L18P_T2_A12_D28_14
+NET A_pin<12>                 LOC = W26  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L18N_T2_A11_D27_14
+NET A_pin<11>                 LOC = V19  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L19P_T3_A10_D26_14
+NET A_pin<10>                 LOC = V20  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L19N_T3_A09_D25_VREF_14
+NET A_pin<9>                  LOC = W23  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L20P_T3_A08_D24_14
+NET A_pin<8>                  LOC = W24  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L20N_T3_A07_D23_14
+NET A_pin<7>                  LOC = U23  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L21N_T3_DQS_A06_D22_14
+NET A_pin<6>                  LOC = V21  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L22P_T3_A05_D21_14
+NET A_pin<5>                  LOC = V22  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L22N_T3_A04_D20_14
+NET A_pin<4>                  LOC = U24  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L23P_T3_A03_D19_14
+NET A_pin<3>                  LOC = V24  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L23N_T3_A02_D18_14
+NET A_pin<2>                  LOC = W21  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L24P_T3_A01_D17_14
+NET A_pin<1>                  LOC = W22  | IOSTANDARD=LVCMOS25; 
+
+NET  CS_N_pin                LOC = U19  | IOSTANDARD=LVCMOS25; # 
+NET  OE_N_pin                LOC = M24  | IOSTANDARD=LVCMOS25; # Bank  15 VCCO - VCC2V5_FPGA - IO_L23P_T3_FOE_B_15
+NET  WE_N_pin               LOC = M25  | IOSTANDARD=LVCMOS25; # Bank  15 VCCO - VCC2V5_FPGA - IO_L23N_T3_FWE_B_15
+NET  ADV_N_pin               LOC = M30  | IOSTANDARD=LVCMOS25; # Bank  15 VCCO - VCC2V5_FPGA - IO_L15N_T2_DQS_ADV_B_15
+ 
+NET DQ_pin<0>                  LOC = P24  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L1P_T0_D00_MOSI_14
+NET DQ_pin<1>                  LOC = R25  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L1N_T0_D01_DIN_14
+NET DQ_pin<2>                 LOC = R20  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L2P_T0_D02_14
+NET DQ_pin<3>                 LOC = R21  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L2N_T0_D03_14
+NET DQ_pin<4>                 LOC = T20  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L4P_T0_D04_14
+NET DQ_pin<5>                 LOC = T21  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L4N_T0_D05_14
+NET DQ_pin<6>                  LOC = T22  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L5P_T0_D06_14
+NET DQ_pin<7>                  LOC = T23  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L5N_T0_D07_14
+NET DQ_pin<8>                  LOC = U20  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L6N_T0_D08_VREF_14
+NET DQ_pin<9>                  LOC = P29  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L7P_T1_D09_14
+NET DQ_pin<10>                  LOC = R29  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L7N_T1_D10_14
+NET DQ_pin<11>                  LOC = P27  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L8P_T1_D11_14
+NET DQ_pin<12>                  LOC = P28  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L8N_T1_D12_14
+NET DQ_pin<13>                  LOC = T30  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L9N_T1_DQS_D13_14
+NET DQ_pin<14>                  LOC = P26  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L10P_T1_D14_14
+NET DQ_pin<15>                  LOC = R26  | IOSTANDARD=LVCMOS25; # Bank  14 VCCO - VCC2V5_FPGA - IO_L10N_T1_D15_14
+
+#########################################################################################################################
+# End PCIe Core Constraints
+#########################################################################################################################
+
+
+#NET  PCIE_TX4_P                LOC = T2                        ; # Bank 115                 - MGTXTXP3_115
+#NET  PCIE_RX4_P                LOC = V6                        ; # Bank 115                 - MGTXRXP3_115
+#NET  PCIE_TX4_N                LOC = T1                        ; # Bank 115                 - MGTXTXN3_115
+#NET  PCIE_RX4_N                LOC = V5                        ; # Bank 115                 - MGTXRXN3_115
+#NET  PCIE_TX5_P                LOC = U4                        ; # Bank 115                 - MGTXTXP2_115
+#NET  PCIE_RX5_P                LOC = W4                        ; # Bank 115                 - MGTXRXP2_115
+#NET  PCIE_TX5_N                LOC = U3                        ; # Bank 115                 - MGTXTXN2_115
+#NET  PCIE_RX5_N                LOC = W3                        ; # Bank 115                 - MGTXRXN2_115
+#NET  PCIE_TX6_P                LOC = V2                        ; # Bank 115                 - MGTXTXP1_115
+#NET  PCIE_RX6_P                LOC = Y6                        ; # Bank 115                 - MGTXRXP1_115
+#NET  PCIE_TX6_N                LOC = V1                        ; # Bank 115                 - MGTXTXN1_115
+#NET  PCIE_RX6_N                LOC = Y5                        ; # Bank 115                 - MGTXRXN1_115
+#NET  PCIE_TX7_P                LOC = Y2                        ; # Bank 115                 - MGTXTXP0_115
+#NET  PCIE_RX7_P                LOC = AA4                       ; # Bank 115                 - MGTXRXP0_115
+#NET  PCIE_TX7_N                LOC = Y1                        ; # Bank 115                 - MGTXTXN0_115
+#NET  PCIE_RX7_N                LOC = AA3                       ; # Bank 115                 - MGTXRXN0_115
+#NET  PCIE_TX0_P                LOC = L4                        ; # Bank 116                 - MGTXTXP3_116
+#NET  PCIE_RX0_P                LOC = M6                        ; # Bank 116                 - MGTXRXP3_116
+#NET  PCIE_TX0_N                LOC = L3                        ; # Bank 116                 - MGTXTXN3_116
+#NET  PCIE_RX0_N                LOC = M5                        ; # Bank 116                 - MGTXRXN3_116
+#NET  PCIE_TX1_P                LOC = M2                        ; # Bank 116                 - MGTXTXP2_116
+#NET  PCIE_RX1_P                LOC = P6                        ; # Bank 116                 - MGTXRXP2_116
+#NET  PCIE_TX1_N                LOC = M1                        ; # Bank 116                 - MGTXTXN2_116
+#NET  PCIE_RX1_N                LOC = P5                        ; # Bank 116                 - MGTXRXN2_116
+#NET  PCIE_TX2_P                LOC = N4                        ; # Bank 116                 - MGTXTXP1_116
+#NET  PCIE_RX2_P                LOC = R4                        ; # Bank 116                 - MGTXRXP1_116
+#NET  PCIE_TX2_N                LOC = N3                        ; # Bank 116                 - MGTXTXN1_116
+#NET  PCIE_RX2_N                LOC = R3                        ; # Bank 116                 - MGTXRXN1_116
+#NET  PCIE_TX3_P                LOC = P2                        ; # Bank 116                 - MGTXTXP0_116
+#NET  PCIE_RX3_P                LOC = T6                        ; # Bank 116                 - MGTXRXP0_116
+#NET  PCIE_TX3_N                LOC = P1                        ; # Bank 116                 - MGTXTXN0_116
+#NET  PCIE_RX3_N                LOC = T5                        ; # Bank 116                 - MGTXRXN0_116

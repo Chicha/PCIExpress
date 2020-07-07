@@ -1,0 +1,179 @@
+INFO:sim:172 - Generating IP...
+Resolving generics for 'v6_pcie_v2_5'...
+Applying external generics to 'v6_pcie_v2_5'...
+Delivering associated files for 'v6_pcie_v2_5'...
+WARNING:sim - Component v6_pcie_v2_5 does not have a valid model name for
+   Verilog synthesis
+Delivering EJava files for 'v6_pcie_v2_5'...
+WARNING:sim - Overwriting existing file
+   E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/doc/ds800_v6_pcie.pdf with
+   file from view xilinx_documentation
+Delivered 2 files into directory
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5
+Generating ASY schematic symbol...
+INFO:sim:993 - The selected IP does not support an ASY schematic symbol.
+INFO:sim:949 - Finished generation of ASY schematic symbol.
+WARNING:sim - The chosen IP does not support an SYM schematic symbol.
+Generating metadata file...
+Generating ISE project...
+XCO file found: v6_pcie_v2_5.xco
+XMDF file found: v6_pcie_v2_5_xmdf.tcl
+Adding
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/gtx_tx_sync_rate_v6.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/gtx_tx_sync_rate_v
+   6.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/gtx_wrapper_v6.v -view
+all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/gtx_wrapper_v6.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/gtx_rx_valid_filter_v6
+.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/gtx_rx_valid_filte
+   r_v6.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_upconfig_fix_3451
+_v6.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_upconfig_fix_
+   3451_v6.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_2_0_v6.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_2_0_v6.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_bram_top_v6.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_bram_top_v6.v
+   " into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_bram_v6.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_bram_v6.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_brams_v6.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_brams_v6.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_clocking_v6.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_clocking_v6.v
+   " into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_gtx_v6.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_gtx_v6.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_pipe_lane_v6.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_pipe_lane_v6.
+   v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_pipe_misc_v6.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_pipe_misc_v6.
+   v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_pipe_v6.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_pipe_v6.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_reset_delay_v6.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/pcie_reset_delay_v
+   6.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_tx_thrtl_ctl
+.v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_tx_thrtl
+   _ctl.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_rx.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_rx.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_rx_null_gen.
+v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_rx_null_
+   gen.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_rx_pipeline.
+v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_rx_pipel
+   ine.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding
+E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_tx_pipeline.
+v -view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_tx_pipel
+   ine.v" into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_tx.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_tx.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_top.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/axi_basic_top.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/v6_pcie_v2_5.v
+-view all -origin_type created
+INFO:HDLCompiler:1845 - Analyzing Verilog file
+   "E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5/source/v6_pcie_v2_5.v"
+   into library work
+INFO:ProjectMgmt - Parsing design hierarchy completed successfully.
+Adding E:/V6/PCIE/V6_pcie/ipcore_dir/tmp/_cg/v6_pcie_v2_5.veo -view all
+-origin_type imported
+INFO:TclTasksC:2116 - The automatic calculation of top has been turned-off.
+   Please set the new top explicitly by running the "project set top" command.
+   To re-calculate the new top automatically, set the "Auto Implementation Top"
+   property to true.
+Top level has been set to "/v6_pcie_v2_5"
+Generating README file...
+Generating FLIST file...
+INFO:sim:948 - Finished FLIST file generation.
+Launching README viewer...
+Moving files to output directory...
+Finished moving files to output directory
+Wrote CGP file for project 'v6_pcie_v2_5'.

@@ -1,0 +1,41 @@
+Release 14.7 ngdbuild P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -sd ipcore_dir -nt timestamp -uc riffa_top_v6_pcie_v2_5.ucf -p
+xc6vlx365t-ff1156-1 riffa_top_v6_pcie_v2_5.ngc riffa_top_v6_pcie_v2_5.ngd
+
+Reading NGO file
+"/home/ise/Downloads/V6_365T/V6_365T/PCIE_riffa/V6_pcie/riffa_top_v6_pcie_v2_5.n
+gc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "riffa_top_v6_pcie_v2_5.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'app/cfg_function_number<2>' has no driver
+WARNING:NgdBuild:452 - logical net 'app/cfg_function_number<1>' has no driver
+WARNING:NgdBuild:452 - logical net 'app/cfg_function_number<0>' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   3
+
+Total memory usage is 625208 kilobytes
+
+Writing NGD file "riffa_top_v6_pcie_v2_5.ngd" ...
+Total REAL time to NGDBUILD completion:  22 sec
+Total CPU time to NGDBUILD completion:   19 sec
+
+Writing NGDBUILD log file "riffa_top_v6_pcie_v2_5.bld"...

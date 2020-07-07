@@ -1,0 +1,29 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Tue Apr 23 21:39:52 2019
+# Process ID: 7204
+# Log file: E:/V6/key_test/key_test/planAhead_run_1/planAhead.log
+# Journal file: E:/V6/key_test/key_test/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/V6/key_test/key_test/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin H28 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin A9 [get_ports {key_in[1]}]
+endgroup
+startgroup
+set_property package_pin A10 [get_ports {key_in[0]}]
+endgroup
+startgroup
+set_property package_pin AP22 [get_ports {led_out[1]}]
+endgroup
+startgroup
+set_property package_pin AP22 [get_ports {led_out[1]}]
+endgroup
+startgroup
+set_property package_pin AP14 [get_ports {led_out[0]}]
+endgroup

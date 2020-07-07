@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Interface Version="1" Minor="1">
+	<Ifc Id="ROOT" Top="1">
+		<Bus Id="pci_exp_rxp">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="pci_exp_rxn">
+			<Port Id="7" Dir="IN"/>
+			<Port Id="6" Dir="IN"/>
+			<Port Id="5" Dir="IN"/>
+			<Port Id="4" Dir="IN"/>
+			<Port Id="3" Dir="IN"/>
+			<Port Id="2" Dir="IN"/>
+			<Port Id="1" Dir="IN"/>
+			<Port Id="0" Dir="IN"/>
+		</Bus>
+		<Bus Id="pci_exp_txp">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Bus Id="pci_exp_txn">
+			<Port Id="7" Dir="OUT"/>
+			<Port Id="6" Dir="OUT"/>
+			<Port Id="5" Dir="OUT"/>
+			<Port Id="4" Dir="OUT"/>
+			<Port Id="3" Dir="OUT"/>
+			<Port Id="2" Dir="OUT"/>
+			<Port Id="1" Dir="OUT"/>
+			<Port Id="0" Dir="OUT"/>
+		</Bus>
+		<Port Id="sys_clk_p" Dir="IN"/>
+		<Port Id="sys_reset_n" Dir="IN"/>
+		<DiffPair Pos="pci_exp_rxp[7]" Neg="pci_exp_rxn[7]"/>
+		<DiffPair Pos="pci_exp_rxp[6]" Neg="pci_exp_rxn[6]"/>
+		<DiffPair Pos="pci_exp_rxp[5]" Neg="pci_exp_rxn[5]"/>
+		<DiffPair Pos="pci_exp_rxp[4]" Neg="pci_exp_rxn[4]"/>
+		<DiffPair Pos="pci_exp_rxp[3]" Neg="pci_exp_rxn[3]"/>
+		<DiffPair Pos="pci_exp_rxp[2]" Neg="pci_exp_rxn[2]"/>
+		<DiffPair Pos="pci_exp_rxp[1]" Neg="pci_exp_rxn[1]"/>
+		<DiffPair Pos="pci_exp_rxp[0]" Neg="pci_exp_rxn[0]"/>
+		<DiffPair Pos="pci_exp_txp[7]" Neg="pci_exp_txn[7]"/>
+		<DiffPair Pos="pci_exp_txp[6]" Neg="pci_exp_txn[6]"/>
+		<DiffPair Pos="pci_exp_txp[5]" Neg="pci_exp_txn[5]"/>
+		<DiffPair Pos="pci_exp_txp[4]" Neg="pci_exp_txn[4]"/>
+		<DiffPair Pos="pci_exp_txp[3]" Neg="pci_exp_txn[3]"/>
+		<DiffPair Pos="pci_exp_txp[2]" Neg="pci_exp_txn[2]"/>
+		<DiffPair Pos="pci_exp_txp[1]" Neg="pci_exp_txn[1]"/>
+		<DiffPair Pos="pci_exp_txp[0]" Neg="pci_exp_txn[0]"/>
+	</Ifc>
+</Interface>
+

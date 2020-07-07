@@ -1,0 +1,10 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Jun 20 07:50:34 2019
+# Process ID: 3504
+# Log file: E:/V6/PCIE/V6_pcie/planAhead_run_1/planAhead.log
+# Journal file: E:/V6/PCIE/V6_pcie/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/V6/PCIE/V6_pcie/pa.fromHdl.tcl

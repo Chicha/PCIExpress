@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "E:/V6/key_test/key_test/key_test.xst" -ofn "E:/V6/key_test/key_test/key_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vlx365t-ff1156-1 key_test.ngc key_test.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o key_test_map.ncd key_test.ngd key_test.pcf 
+par -w -intstyle ise -ol high -mt off key_test_map.ncd key_test.ncd key_test.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml key_test.twx key_test.ncd -o key_test.twr key_test.pcf 
+xst -intstyle ise -ifn "E:/V6/key_test/key_test/key_test.xst" -ofn "E:/V6/key_test/key_test/key_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc key_test.ucf -p xc6vlx365t-ff1156-1 key_test.ngc key_test.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o key_test_map.ncd key_test.ngd key_test.pcf 
+par -w -intstyle ise -ol high -mt off key_test_map.ncd key_test.ncd key_test.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml key_test.twx key_test.ncd -o key_test.twr key_test.pcf -ucf key_test.ucf 
+bitgen -intstyle ise -f key_test.ut key_test.ncd 
+xst -intstyle ise -ifn "E:/V6/key_test/key_test/key_test.xst" -ofn "E:/V6/key_test/key_test/key_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc key_test.ucf -p xc6vlx365t-ff1156-1 key_test.ngc key_test.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o key_test_map.ncd key_test.ngd key_test.pcf 
+par -w -intstyle ise -ol high -mt off key_test_map.ncd key_test.ncd key_test.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml key_test.twx key_test.ncd -o key_test.twr key_test.pcf -ucf key_test.ucf 
+bitgen -intstyle ise -f key_test.ut key_test.ncd 

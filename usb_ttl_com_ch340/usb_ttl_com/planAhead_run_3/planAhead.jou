@@ -1,0 +1,51 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Jun 12 21:33:43 2019
+# Process ID: 1572
+# Log file: E:/V6/usb_ttl_com_ch340/usb_ttl_com/planAhead_run_3/planAhead.log
+# Journal file: E:/V6/usb_ttl_com_ch340/usb_ttl_com/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/V6/usb_ttl_com_ch340/usb_ttl_com/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+startgroup
+set_property package_pin H28 [get_ports clk]
+endgroup
+startgroup
+set_property package_pin A9 [get_ports key_input]
+endgroup
+startgroup
+set_property package_pin A10 [get_ports rst]
+endgroup
+startgroup
+set_property package_pin A8 [get_ports rxd]
+endgroup
+startgroup
+set_property package_pin B8 [get_ports txd]
+endgroup
+startgroup
+set_property package_pin AP22 [get_ports {seg_data[7]}]
+endgroup
+startgroup
+set_property package_pin AP21 [get_ports {seg_data[6]}]
+endgroup
+startgroup
+set_property package_pin AP20 [get_ports {seg_data[5]}]
+endgroup
+startgroup
+set_property package_pin AP19 [get_ports {seg_data[4]}]
+endgroup
+startgroup
+set_property package_pin AP17 [get_ports {seg_data[3]}]
+endgroup
+startgroup
+set_property package_pin AP15 [get_ports {seg_data[2]}]
+endgroup
+startgroup
+set_property package_pin AN14 [get_ports {seg_data[1]}]
+endgroup
+startgroup
+set_property package_pin AP14 [get_ports {seg_data[0]}]
+endgroup
+save_constraints

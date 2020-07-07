@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="370" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PIO\data_transfer.v" Line 90: Empty port in module declaration
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\programmer\programmer.v" Line 265: Result of <arg fmt="%d" index="1">25</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">24</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\programmer\programmer.v" Line 782: Result of <arg fmt="%d" index="1">3</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">2</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\programmer\programmer.v" Line 802: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\programmer\programmer.v" Line 816: Result of <arg fmt="%d" index="1">16</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\programmer\programmer.v" Line 828: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\programmer\programmer.v" Line 838: Result of <arg fmt="%d" index="1">25</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">24</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\programmer\programmer.v" Line 851: Result of <arg fmt="%d" index="1">10</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">9</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v" Line 245: Port <arg fmt="%s" index="1">TxOutClk</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v" Line 389: Port <arg fmt="%s" index="1">pl_directed_link_change</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v" Line 231: Assignment to <arg fmt="%s" index="1">trn_reset_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v" Line 721: Assignment to <arg fmt="%s" index="1">block_clk</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1166: Assignment to <arg fmt="%s" index="1">LL2BADDLLPERRN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1167: Assignment to <arg fmt="%s" index="1">LL2BADTLPERRN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1168: Assignment to <arg fmt="%s" index="1">LL2PROTOCOLERRN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1169: Assignment to <arg fmt="%s" index="1">LL2REPLAYROERRN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1170: Assignment to <arg fmt="%s" index="1">LL2REPLAYTOERRN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1171: Assignment to <arg fmt="%s" index="1">LL2SUSPENDOKN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1172: Assignment to <arg fmt="%s" index="1">LL2TFCINIT1SEQN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1173: Assignment to <arg fmt="%s" index="1">LL2TFCINIT2SEQN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1252: Assignment to <arg fmt="%s" index="1">PL2LINKUPN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1253: Assignment to <arg fmt="%s" index="1">PL2RECEIVERERRN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1254: Assignment to <arg fmt="%s" index="1">PL2RECOVERYN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1255: Assignment to <arg fmt="%s" index="1">PL2RXELECIDLE</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1256: Assignment to <arg fmt="%s" index="1">PL2SUSPENDOK</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1259: Assignment to <arg fmt="%s" index="1">TL2ASPMSUSPENDCREDITCHECKOKN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1260: Assignment to <arg fmt="%s" index="1">TL2ASPMSUSPENDREQN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1261: Assignment to <arg fmt="%s" index="1">TL2PPMSUSPENDOKN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1273: Assignment to <arg fmt="%s" index="1">TRNRDLLPSRCRDYN</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_drp_chanalign_fix_3752_v6.v" Line 180: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_drp_chanalign_fix_3752_v6.v" Line 229: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 473: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DFETAP1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 487: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 488: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 496: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 497: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 563: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 564: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 587: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXENPRBSTST</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 589: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXHEADER</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 604: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPOSTEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 606: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPRBSFORCEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 607: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPREEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 612: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSEQUENCE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 613: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSTARTSEQ</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 617: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">USRCODEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 618: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">IGNORESIGDET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 619: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 620: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 623: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDLYALIGNRESET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 473: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DFETAP1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 487: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 488: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 496: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 497: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 563: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 564: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 587: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXENPRBSTST</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 589: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXHEADER</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 604: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPOSTEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 606: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPRBSFORCEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 607: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPREEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 612: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSEQUENCE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 613: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSTARTSEQ</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 617: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">USRCODEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 618: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">IGNORESIGDET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 619: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 620: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 623: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDLYALIGNRESET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 473: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DFETAP1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 487: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 488: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 496: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 497: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 563: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 564: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 587: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXENPRBSTST</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 589: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXHEADER</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 604: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPOSTEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 606: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPRBSFORCEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 607: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPREEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 612: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSEQUENCE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 613: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSTARTSEQ</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 617: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">USRCODEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 618: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">IGNORESIGDET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 619: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 620: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 623: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDLYALIGNRESET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 473: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DFETAP1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 487: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 488: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 496: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 497: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 563: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 564: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 587: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXENPRBSTST</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 589: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXHEADER</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 604: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPOSTEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 606: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPRBSFORCEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 607: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPREEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 612: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSEQUENCE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 613: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSTARTSEQ</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 617: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">USRCODEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 618: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">IGNORESIGDET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 619: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 620: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 623: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDLYALIGNRESET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 473: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DFETAP1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 487: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 488: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 496: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 497: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 563: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 564: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 587: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXENPRBSTST</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 589: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXHEADER</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 604: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPOSTEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 606: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPRBSFORCEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 607: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPREEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 612: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSEQUENCE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 613: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSTARTSEQ</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 617: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">USRCODEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 618: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">IGNORESIGDET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 619: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 620: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 623: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDLYALIGNRESET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 473: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DFETAP1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 487: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 488: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 496: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 497: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 563: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 564: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 587: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXENPRBSTST</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 589: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXHEADER</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 604: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPOSTEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 606: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPRBSFORCEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 607: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPREEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 612: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSEQUENCE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 613: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSTARTSEQ</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 617: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">USRCODEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 618: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">IGNORESIGDET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 619: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 620: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 623: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDLYALIGNRESET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 473: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DFETAP1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 487: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 488: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 496: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 497: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 563: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 564: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 587: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXENPRBSTST</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 589: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXHEADER</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 604: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPOSTEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 606: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPRBSFORCEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 607: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPREEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 612: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSEQUENCE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 613: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSTARTSEQ</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 617: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">USRCODEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 618: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">IGNORESIGDET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 619: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 620: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 623: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDLYALIGNRESET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 473: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">DFETAP1</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 487: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 488: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">GREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 496: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 497: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">NORTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 563: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 564: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">SOUTHREFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">2</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 587: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXENPRBSTST</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 589: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXHEADER</arg>&gt;. Formal port size is <arg fmt="%d" index="2">3</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 604: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPOSTEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">5</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 606: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPRBSFORCEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 607: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXPREEMPHASIS</arg>&gt;. Formal port size is <arg fmt="%d" index="2">4</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 612: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSEQUENCE</arg>&gt;. Formal port size is <arg fmt="%d" index="2">7</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 613: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">TXSTARTSEQ</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 617: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">USRCODEERR</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 618: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">IGNORESIGDET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 619: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKRX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 620: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">PERFCLKTX</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v" Line 623: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">RXDLYALIGNRESET</arg>&gt;. Formal port size is <arg fmt="%d" index="2">1</arg>-bit while actual signal size is <arg fmt="%d" index="1">32</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_bram_v6.v" Line 257: Port <arg fmt="%s" index="1">DOPB</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1886: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">mim_tx_rdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">72</arg>-bit while actual signal size is <arg fmt="%d" index="1">69</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="189" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v" Line 1894: Size mismatch in connection of port &lt;<arg fmt="%s" index="3">mim_rx_rdata</arg>&gt;. Formal port size is <arg fmt="%d" index="2">72</arg>-bit while actual signal size is <arg fmt="%d" index="1">68</arg>-bit.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v" Line 989: Assignment to <arg fmt="%s" index="1">rx_func_level_reset_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v" Line 364: Assignment to <arg fmt="%s" index="1">pl_initial_link_width</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v" Line 365: Assignment to <arg fmt="%s" index="1">pl_lane_reversal_mode</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v" Line 366: Assignment to <arg fmt="%s" index="1">pl_link_gen2_capable</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v" Line 367: Assignment to <arg fmt="%s" index="1">pl_link_partner_gen2_supported</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v" Line 368: Assignment to <arg fmt="%s" index="1">pl_link_upcfg_capable</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v" Line 369: Assignment to <arg fmt="%s" index="1">pl_ltssm_state</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v" Line 370: Assignment to <arg fmt="%s" index="1">pl_received_hot_rst</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v" Line 371: Assignment to <arg fmt="%s" index="1">pl_sel_link_rate</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v" Line 372: Assignment to <arg fmt="%s" index="1">pl_sel_link_width</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PIO\pcie_app_v6.v" Line 192: Assignment to <arg fmt="%s" index="1">trn_tecrc_gen_n</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1016" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PIO\data_transfer.v" Line 121: Port <arg fmt="%s" index="1">overflow</arg> is not connected to this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PIO\data_transfer.v" Line 155: Assignment to <arg fmt="%s" index="1">FIFO_rd_en</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PIO\PIO_EP.v" Line 206: Assignment to <arg fmt="%s" index="1">conf_error</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PIO\PIO_EP_MEM_ACCESS.v" Line 190: Assignment to <arg fmt="%s" index="1">pre_wr_data0_q</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PIO\PIO_EP_MEM_ACCESS.v" Line 297: Assignment to <arg fmt="%s" index="1">rd_data_raw_o</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="552" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v" Line 389: Input port <arg fmt="%s" index="1">pl_ltssm_state[5]</arg> is not connected on this instance
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="old" >"F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe_ISP_top.v" Line 175: Assignment to <arg fmt="%s" index="1">FIFO_FULL</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">DQ_I&lt;15:8&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">pl_ltssm_state</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">app</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">pl_sel_link_width</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">app</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">pl_initial_link_width</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">app</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">pl_lane_reversal_mode</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">app</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">pl_sel_link_rate</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">app</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">pl_link_gen2_capable</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">app</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">pl_link_partner_gen2_supported</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">app</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">pl_link_upcfg_capable</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">app</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">pl_received_hot_rst</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">app</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pmcsr_powerstate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">pl_initial_link_width</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">pl_lane_reversal_mode</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">pl_ltssm_state</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">pl_sel_link_width</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">TxOutClk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pmcsr_pme_en</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">cfg_pmcsr_pme_status</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">pl_link_gen2_capable</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">pl_link_partner_gen2_supported</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">pl_link_upcfg_capable</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">pl_received_hot_rst</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">246</arg>: Output port &lt;<arg fmt="%s" index="3">pl_sel_link_rate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">core</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">389</arg>: Output port &lt;<arg fmt="%s" index="3">pl_directed_link_change</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">app</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">389</arg>: Output port &lt;<arg fmt="%s" index="3">pl_directed_link_width</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">app</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">389</arg>: Output port &lt;<arg fmt="%s" index="3">pl_directed_link_speed</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">app</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">389</arg>: Output port &lt;<arg fmt="%s" index="3">pl_directed_link_auton</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">app</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\xilinx_pcie_2_0_ep_v6.v</arg>&quot; line <arg fmt="%s" index="2">389</arg>: Output port &lt;<arg fmt="%s" index="3">pl_upstream_prefer_deemph</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">app</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">711</arg>: Output port &lt;<arg fmt="%s" index="3">block_clk</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_clocking_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGTRANSACTIONADDR</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGVCTCVCMAP</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">PLRXPMSTATE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">PLTXPMSTATE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGVECA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGVECB</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGVECC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">PLDBGVEC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">PCIEDRPDO</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">RECEIVEDFUNCLVLRSTN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">LNKCLKEN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">TRNRECRCERRN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">TRNTDLLPDSTRDYN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGAERECRCCHECKEN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGAERECRCGENEN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGERRAERHEADERLOGSETN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDASSERTINTA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDASSERTINTB</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDASSERTINTC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDASSERTINTD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDDEASSERTINTA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDDEASSERTINTB</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDDEASSERTINTC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDDEASSERTINTD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDERRCOR</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDERRFATAL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDERRNONFATAL</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDPMASNAK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDPMETOACK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDPMPME</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDSETSLOTPOWERLIMIT</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGMSGRECEIVEDUNLOCK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGPMRCVASREQL1N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGPMRCVENTERL1N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGPMRCVENTERL23N</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGPMRCVREQACKN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGSLOTCONTROLELECTROMECHILCTLPULSE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGTRANSACTION</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">CFGTRANSACTIONTYPE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">PLPHYLNKUPN</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRA</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRB</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRC</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRD</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRE</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRF</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRG</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRH</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRI</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRJ</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">DBGSCLRK</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\v6_pcie_v1_7.v</arg>&quot; line <arg fmt="%s" index="2">973</arg>: Output port &lt;<arg fmt="%s" index="3">PCIEDRPDRDY</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_2_0_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">sel_lnk_width</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">sel_lnk_rate</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">block_clk</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v</arg>&quot; line <arg fmt="%s" index="2">1439</arg>: Output port &lt;<arg fmt="%s" index="3">pipe_tx_reset_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_pipe_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_2_0_v6.v</arg>&quot; line <arg fmt="%s" index="2">1439</arg>: Output port &lt;<arg fmt="%s" index="3">pipe_tx_swing_o</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">pcie_pipe_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_ltssm_state</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx5_phy_status_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx5_elec_idle_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx6_phy_status_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx7_phy_status_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">rst_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">rst_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx_margin&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_tx_reset</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\pcie_gtx_v6.v</arg>&quot; line <arg fmt="%s" index="2">254</arg>: Output port &lt;<arg fmt="%s" index="3">GTRefClkout</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">gtx_v6_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v</arg>&quot; line <arg fmt="%s" index="2">275</arg>: Output port &lt;<arg fmt="%s" index="3">drpstate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXD[0].GTX_DRP_CHANALIGN_FIX_3752</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v</arg>&quot; line <arg fmt="%s" index="2">275</arg>: Output port &lt;<arg fmt="%s" index="3">drpstate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXD[1].GTX_DRP_CHANALIGN_FIX_3752</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v</arg>&quot; line <arg fmt="%s" index="2">275</arg>: Output port &lt;<arg fmt="%s" index="3">drpstate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXD[2].GTX_DRP_CHANALIGN_FIX_3752</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v</arg>&quot; line <arg fmt="%s" index="2">275</arg>: Output port &lt;<arg fmt="%s" index="3">drpstate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXD[3].GTX_DRP_CHANALIGN_FIX_3752</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v</arg>&quot; line <arg fmt="%s" index="2">275</arg>: Output port &lt;<arg fmt="%s" index="3">drpstate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXD[4].GTX_DRP_CHANALIGN_FIX_3752</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v</arg>&quot; line <arg fmt="%s" index="2">275</arg>: Output port &lt;<arg fmt="%s" index="3">drpstate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXD[5].GTX_DRP_CHANALIGN_FIX_3752</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v</arg>&quot; line <arg fmt="%s" index="2">275</arg>: Output port &lt;<arg fmt="%s" index="3">drpstate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXD[6].GTX_DRP_CHANALIGN_FIX_3752</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PCIe\gtx_wrapper_v6.v</arg>&quot; line <arg fmt="%s" index="2">275</arg>: Output port &lt;<arg fmt="%s" index="3">drpstate</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">GTXD[7].GTX_DRP_CHANALIGN_FIX_3752</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">GTRefClkout</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">dout</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RATEDONE</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">waddr_i&lt;12:11&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">raddr_i&lt;12:11&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">reset_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_ltssm_state</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_directed_link_change</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_link_status_negotiated_width</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx0_data</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_rx0_char_isk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pipe_clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_phy_lnkup_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_sel_lnk_rate</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_tbuf_av</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_fc_cpld</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_fc_cplh</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_fc_npd</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_fc_nph</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_fc_pd</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_fc_ph</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_do</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_interrupt_do</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_interrupt_mmenable</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_status</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_command&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_command&lt;15:3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_dstatus</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_dcommand</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_lstatus</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_lcommand</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_dcommand2</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_pcie_link_state_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_ltssm_state</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_sel_link_width</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_initial_link_width</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_lane_reversal_mode</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_tcfg_req_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_terr_drop_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_rerrfwd_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_rd_wr_done_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_err_cpl_rdy_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_interrupt_rdy_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_interrupt_msienable</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_interrupt_msixenable</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_interrupt_msixfm</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_sel_link_rate</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_link_gen2_capable</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_link_partner_gen2_supported</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_link_upcfg_capable</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">pl_received_hot_rst</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_reset_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2898" delta="old" >Port &apos;<arg fmt="%s" index="1">p1</arg>&apos;, unconnected in block instance &apos;<arg fmt="%s" index="2">data_transfer_i</arg>&apos;, is tied to GND.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PIO\PIO_EP.v</arg>&quot; line <arg fmt="%s" index="2">194</arg>: Output port &lt;<arg fmt="%s" index="3">CONF_ERROR</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">data_transfer_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">RST_CONF_ERROR</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PIO\data_transfer.v</arg>&quot; line <arg fmt="%s" index="2">121</arg>: Output port &lt;<arg fmt="%s" index="3">overflow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">config_FIFO_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PIO\data_transfer.v</arg>&quot; line <arg fmt="%s" index="2">121</arg>: Output port &lt;<arg fmt="%s" index="3">full</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">config_FIFO_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\src\PIO\data_transfer.v</arg>&quot; line <arg fmt="%s" index="2">121</arg>: Output port &lt;<arg fmt="%s" index="3">underflow</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">config_FIFO_i</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="653" delta="old" >Signal &lt;<arg fmt="%s" index="1">CONF_ERROR</arg>&gt; is used but never assigned. This sourceless signal will be automatically connected to value <arg fmt="%s" index="2">GND</arg>.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">rd_addr_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">rd_be_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">wr_addr_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">wr_be_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">001</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">wr_mem_state</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">010</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">wr_mem_state</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1799" delta="old" >State <arg fmt="%s" index="1">100</arg> is never reached in FSM &lt;<arg fmt="%s" index="2">wr_mem_state</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_rrem_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_rbar_hit_n&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_rbar_hit_n&lt;5:3&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_reof_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">trn_rsrc_dsc_n</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">req_be_i&lt;7:4&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">req_addr_i&lt;1:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">cfg_bus_mstr_enable_i</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">req_be_o_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">req_be_o_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">req_be_o_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">req_be_o_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">EP_RX</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="3231" delta="old" >The small RAM &lt;<arg fmt="%s" index="1">Mram__n0098</arg>&gt; will be implemented on LUTs in order to maximize performance and save block RAM resources. If you want to force its implementation on block, use option/constraint ram_style.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">reg_count_23_16_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_reset_delay_v6</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">reg_count_23_16_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_reset_delay_v6</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">reg_count_23_16_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_reset_delay_v6</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_tx/brams[3].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_tx/brams[3].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_tx/brams[2].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_tx/brams[2].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_tx/brams[1].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_tx/brams[1].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_tx/brams[0].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_tx/brams[0].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_rx/brams[3].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_rx/brams[3].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_rx/brams[2].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_rx/brams[2].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_rx/brams[1].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_rx/brams[1].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1901" delta="old" >Instance <arg fmt="%s" index="1">pcie_bram_i/pcie_brams_rx/brams[0].ram/use_ramb36.ramb36</arg> in unit <arg fmt="%s" index="2">pcie_bram_i/pcie_brams_rx/brams[0].ram/use_ramb36.ramb36</arg> of type <arg fmt="%s" index="3">RAMB36</arg> has been replaced by <arg fmt="%s" index="4">RAMB36E1</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">req_addr_o_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PIO_64_RX_ENGINE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1895" delta="old" >Due to other FF/Latch trimming, FF/Latch &lt;<arg fmt="%s" index="1">req_addr_o_1</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">PIO_64_RX_ENGINE</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_td_15</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_td_14</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_td_13</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_td_12</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_td_11</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_td_10</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_td_9</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_td_8</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_td_7</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_td_6</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_td_5</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_td_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_td_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[7].GTX_RX_VALID_FILTER/gt_rx_phy_status_q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[6].GTX_RX_VALID_FILTER/gt_rx_phy_status_q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[5].GTX_RX_VALID_FILTER/gt_rx_phy_status_q</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[7].GTX_TX_SYNC/USER_PHYSTATUS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[6].GTX_TX_SYNC/USER_PHYSTATUS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[5].GTX_TX_SYNC/USER_PHYSTATUS</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_be_o_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_be_o_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_be_o_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_be_o_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_be_o_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_be_o_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_be_o_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_be_o_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/req_be_o_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/req_be_o_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/req_be_o_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/req_be_o_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/req_addr_o_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/req_addr_o_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/req_addr_o_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/req_addr_o_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/req_addr_o_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/req_addr_o_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_addr_o_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_addr_o_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_addr_o_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_addr_o_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_addr_o_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_addr_o_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_addr_o_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_addr_o_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_addr_o_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_addr_o_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/wr_addr_o_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/tlp_type_4</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/tlp_type_3</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/tlp_type_2</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_RX/tlp_type_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_tsrc_dsc_n</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">1</arg> in block &lt;<arg fmt="%s" index="3">pcie_pio_app/app/PIO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[7].GTX_DRP_CHANALIGN_FIX_3752/write_ts1_gated</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[6].GTX_DRP_CHANALIGN_FIX_3752/write_ts1_gated&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[5].GTX_DRP_CHANALIGN_FIX_3752/write_ts1_gated&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[4].GTX_DRP_CHANALIGN_FIX_3752/write_ts1_gated&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[3].GTX_DRP_CHANALIGN_FIX_3752/write_ts1_gated&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[2].GTX_DRP_CHANALIGN_FIX_3752/write_ts1_gated&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[1].GTX_DRP_CHANALIGN_FIX_3752/write_ts1_gated&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_DRP_CHANALIGN_FIX_3752/write_ts1_gated&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[7].GTX_TX_SYNC/state_FSM_FFd21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[6].GTX_TX_SYNC/state_FSM_FFd21&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[5].GTX_TX_SYNC/state_FSM_FFd21&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[4].GTX_TX_SYNC/state_FSM_FFd21&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[3].GTX_TX_SYNC/state_FSM_FFd21&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[2].GTX_TX_SYNC/state_FSM_FFd21&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[1].GTX_TX_SYNC/state_FSM_FFd21&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_TX_SYNC/state_FSM_FFd21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[1].GTX_RX_VALID_FILTER/reg_state_eios_det_FSM_FFd3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[1].GTX_RX_VALID_FILTER/reg_eios_detected&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[7].GTX_TX_SYNC/ratedone_r</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[6].GTX_TX_SYNC/ratedone_r&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[5].GTX_TX_SYNC/ratedone_r&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[4].GTX_TX_SYNC/ratedone_r&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[3].GTX_TX_SYNC/ratedone_r&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[2].GTX_TX_SYNC/ratedone_r&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[1].GTX_TX_SYNC/ratedone_r&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_TX_SYNC/ratedone_r&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_RX_VALID_FILTER/reg_state_eios_det_FSM_FFd3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_RX_VALID_FILTER/reg_eios_detected&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[2].GTX_RX_VALID_FILTER/reg_state_eios_det_FSM_FFd3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[2].GTX_RX_VALID_FILTER/reg_eios_detected&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[4].GTX_RX_VALID_FILTER/reg_state_eios_det_FSM_FFd3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[4].GTX_RX_VALID_FILTER/reg_eios_detected&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[6].GTX_RX_VALID_FILTER/reg_state_eios_det_FSM_FFd3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[6].GTX_RX_VALID_FILTER/reg_eios_detected&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[3].GTX_RX_VALID_FILTER/reg_state_eios_det_FSM_FFd3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[3].GTX_RX_VALID_FILTER/reg_eios_detected&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[5].GTX_RX_VALID_FILTER/reg_state_eios_det_FSM_FFd3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[5].GTX_RX_VALID_FILTER/reg_eios_detected&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[7].GTX_TX_SYNC/ratedone_r2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[6].GTX_TX_SYNC/ratedone_r2&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[5].GTX_TX_SYNC/ratedone_r2&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[4].GTX_TX_SYNC/ratedone_r2&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[3].GTX_TX_SYNC/ratedone_r2&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[2].GTX_TX_SYNC/ratedone_r2&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[1].GTX_TX_SYNC/ratedone_r2&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_TX_SYNC/ratedone_r2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[7].GTX_RX_VALID_FILTER/reg_state_eios_det_FSM_FFd3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[7].GTX_RX_VALID_FILTER/reg_eios_detected&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[7].GTX_DRP_CHANALIGN_FIX_3752/write_fts_gated</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">PCIe_ISP_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">7 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[6].GTX_DRP_CHANALIGN_FIX_3752/write_fts_gated&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[5].GTX_DRP_CHANALIGN_FIX_3752/write_fts_gated&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[4].GTX_DRP_CHANALIGN_FIX_3752/write_fts_gated&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[3].GTX_DRP_CHANALIGN_FIX_3752/write_fts_gated&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[2].GTX_DRP_CHANALIGN_FIX_3752/write_fts_gated&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[1].GTX_DRP_CHANALIGN_FIX_3752/write_fts_gated&gt; &lt;pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX_DRP_CHANALIGN_FIX_3752/write_fts_gated&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="3203" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">PIO_EP/EP_TX/trn_tsof_n</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">pcie_pio_app/app/PIO</arg>&gt; is the opposite to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;PIO_EP/EP_TX/state_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

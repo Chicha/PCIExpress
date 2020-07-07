@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Jun 12 14:11:36 2019
+# Process ID: 908
+# Log file: E:/V6/usb_ttl_com_ch340/usb_ttl_com/planAhead_run_1/planAhead.log
+# Journal file: E:/V6/usb_ttl_com_ch340/usb_ttl_com/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/V6/usb_ttl_com_ch340/usb_ttl_com/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

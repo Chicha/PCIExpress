@@ -1,0 +1,7 @@
+https://github.com/KastnerRG/riffa
+
+I mainly design hardware. The software is unfamiliar. 
+I downloaded two PCIe projects online. The computer can recognize the FPGA board.
+But there will be problems when installing the driver.
+One is inf file problem. 
+The exception is an exclamation point in yellow.

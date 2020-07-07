@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.xst" -ofn "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.syr" 
+xst -intstyle ise -ifn "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.xst" -ofn "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -nt timestamp -i -p xc6vlx240t-ff1156-1 PCIe_ISP_top.ngc PCIe_ISP_top.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PCIe_ISP_top_map.ncd PCIe_ISP_top.ngd PCIe_ISP_top.pcf 
+par -w -intstyle ise -ol high -mt off PCIe_ISP_top_map.ncd PCIe_ISP_top.ncd PCIe_ISP_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PCIe_ISP_top.twx PCIe_ISP_top.ncd -o PCIe_ISP_top.twr PCIe_ISP_top.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -nt timestamp -uc PCIe_ISP_top.ucf -p xc6vlx240t-ff1156-1 PCIe_ISP_top.ngc PCIe_ISP_top.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PCIe_ISP_top_map.ncd PCIe_ISP_top.ngd PCIe_ISP_top.pcf 
+par -w -intstyle ise -ol high -mt off PCIe_ISP_top_map.ncd PCIe_ISP_top.ncd PCIe_ISP_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PCIe_ISP_top.twx PCIe_ISP_top.ncd -o PCIe_ISP_top.twr PCIe_ISP_top.pcf -ucf PCIe_ISP_top.ucf 
+xst -intstyle ise -ifn "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.xst" -ofn "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -nt timestamp -uc PCIe_ISP_top.ucf -p xc6vlx240t-ff1156-1 PCIe_ISP_top.ngc PCIe_ISP_top.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PCIe_ISP_top_map.ncd PCIe_ISP_top.ngd PCIe_ISP_top.pcf 
+par -w -intstyle ise -ol high -mt off PCIe_ISP_top_map.ncd PCIe_ISP_top.ncd PCIe_ISP_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PCIe_ISP_top.twx PCIe_ISP_top.ncd -o PCIe_ISP_top.twr PCIe_ISP_top.pcf -ucf PCIe_ISP_top.ucf 
+xst -intstyle ise -ifn "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.xst" -ofn "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -nt timestamp -uc PCIe_ISP_top.ucf -p xc6vlx240t-ff1156-1 PCIe_ISP_top.ngc PCIe_ISP_top.ngd  
+map -intstyle ise -p xc6vlx240t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PCIe_ISP_top_map.ncd PCIe_ISP_top.ngd PCIe_ISP_top.pcf 
+par -w -intstyle ise -ol high -mt off PCIe_ISP_top_map.ncd PCIe_ISP_top.ncd PCIe_ISP_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PCIe_ISP_top.twx PCIe_ISP_top.ncd -o PCIe_ISP_top.twr PCIe_ISP_top.pcf -ucf PCIe_ISP_top.ucf 
+bitgen -intstyle ise -f PCIe_ISP_top.ut PCIe_ISP_top.ncd 
+xst -intstyle ise -ifn "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.xst" -ofn "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -nt timestamp -uc PCIe_ISP_top.ucf -p xc6vlx365t-ff1156-1 PCIe_ISP_top.ngc PCIe_ISP_top.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PCIe_ISP_top_map.ncd PCIe_ISP_top.ngd PCIe_ISP_top.pcf 
+par -w -intstyle ise -ol high -mt off PCIe_ISP_top_map.ncd PCIe_ISP_top.ncd PCIe_ISP_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PCIe_ISP_top.twx PCIe_ISP_top.ncd -o PCIe_ISP_top.twr PCIe_ISP_top.pcf -ucf PCIe_ISP_top.ucf 
+bitgen -intstyle ise -f PCIe_ISP_top.ut PCIe_ISP_top.ncd 
+xst -intstyle ise -ifn "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.xst" -ofn "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../coregen -nt timestamp -uc PCIe_ISP_top.ucf -p xc6vlx365t-ff1156-1 PCIe_ISP_top.ngc PCIe_ISP_top.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o PCIe_ISP_top_map.ncd PCIe_ISP_top.ngd PCIe_ISP_top.pcf 
+par -w -intstyle ise -ol high -mt off PCIe_ISP_top_map.ncd PCIe_ISP_top.ncd PCIe_ISP_top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml PCIe_ISP_top.twx PCIe_ISP_top.ncd -o PCIe_ISP_top.twr PCIe_ISP_top.pcf -ucf PCIe_ISP_top.ucf 
+bitgen -intstyle ise -f PCIe_ISP_top.ut PCIe_ISP_top.ncd 

@@ -1,0 +1,11 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed May 15 19:59:02 2019
+# Process ID: 6616
+# Log file: F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/planAhead_run_1/planAhead.log
+# Journal file: F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/pa.fromHdl.tcl
+update_compile_order -fileset sim_1

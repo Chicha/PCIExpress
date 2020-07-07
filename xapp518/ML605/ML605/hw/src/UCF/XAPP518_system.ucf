@@ -1,0 +1,200 @@
+####################################################################################
+# Constraints from file : 'XAPP518_system.ucf'
+####################################################################################
+
+##-----------------------------------------------------------------------------
+##
+## (c) Copyright 2011 Xilinx, Inc. All rights reserved.
+##
+## This file contains confidential and proprietary information of Xilinx, Inc.
+## and is protected under U.S. and international copyright and other
+## intellectual property laws.
+##
+## DISCLAIMER
+## 
+## This disclaimer is not a license and does not grant any rights to the
+## materials distributed herewith. Except as otherwise provided in a valid
+## license issued to you by Xilinx, and to the maximum extent permitted by
+## applicable law: (1) THESE MATERIALS ARE MADE AVAILABLE "AS IS" AND WITH ALL
+## FAULTS, AND XILINX HEREBY DISCLAIMS ALL WARRANTIES AND CONDITIONS, EXPRESS,
+## IMPLIED, OR STATUTORY, INCLUDING BUT NOT LIMITED TO WARRANTIES OF
+## MERCHANTABILITY, NON-INFRINGEMENT, OR FITNESS FOR ANY PARTICULAR PURPOSE;
+## and (2) Xilinx shall not be liable (whether in contract or tort, including
+## negligence, or under any other theory of liability) for any loss or damage
+## of any kind or nature related to, arising under or in connection with these
+## materials, including for any direct, or any indirect, special, incidental,
+## or consequential loss or damage (including loss of data, profits, goodwill,
+## or any type of loss or damage suffered as a result of any action brought by
+## a third party) even if such damage or loss was reasonably foreseeable or
+## Xilinx had been advised of the possibility of the same.
+##
+## CRITICAL APPLICATIONS
+##
+## Xilinx products are not designed or intended to be fail-safe, or for use in
+## any application requiring fail-safe performance, such as life-support or
+## safety devices or systems, Class III medical devices, nuclear facilities,
+## applications related to the deployment of airbags, or any other
+## applications that could lead to death, personal injury, or severe property
+## or environmental damage (individually and collectively, "Critical
+## Applications"). Customer assumes the sole risk and liability of any use of
+## Xilinx products in Critical Applications, subject only to applicable laws
+## and regulations governing limitations on product liability.
+##
+## THIS COPYRIGHT NOTICE AND DISCLAIMER MUST BE RETAINED AS PART OF THIS FILE
+## AT ALL TIMES.
+##
+##-----------------------------------------------------------------------------
+## Project    : Virtex-6 PCIe In-system Programming for BPI PROM
+## File       : XAPP518_system.ucf
+## Target board: ML605
+#
+###############################################################################
+########################
+### PCIe interface
+########################
+NET "PCIe_reset_n" LOC = AE13;
+NET "PCIe_reset_n" TIG;
+NET "PCIe_reset_n" NODELAY = "TRUE";
+NET "PCIe_reset_n" IOSTANDARD = LVCMOS25;
+NET "PCIe_reset_n" PULLUP;
+# System reference clock
+NET "sys_clk_p" LOC = P6;
+NET "sys_clk_n" LOC = P5;
+# Transceiver instance placement. 
+# PCIe Lane 0
+INST "pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[0].GTX" LOC = GTXE1_X0Y15;
+NET "pci_exp_rxn[0]" LOC = J4;
+NET "pci_exp_rxp[0]" LOC = J3;
+NET "pci_exp_txn[0]" LOC = F2;
+NET "pci_exp_txp[0]" LOC = F1;
+# PCIe Lane 1
+INST "pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[1].GTX" LOC = GTXE1_X0Y14;
+NET "pci_exp_rxn[1]" LOC = K6;
+NET "pci_exp_rxp[1]" LOC = K5;
+NET "pci_exp_txn[1]" LOC = H2;
+NET "pci_exp_txp[1]" LOC = H1;
+# PCIe Lane 2
+INST "pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[2].GTX" LOC = GTXE1_X0Y13;
+NET "pci_exp_rxn[2]" LOC = L4;
+NET "pci_exp_rxp[2]" LOC = L3;
+NET "pci_exp_txn[2]" LOC = K2;
+NET "pci_exp_txp[2]" LOC = K1;
+# PCIe Lane 3
+INST "pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[3].GTX" LOC = GTXE1_X0Y12;
+NET "pci_exp_rxn[3]" LOC = N4;
+NET "pci_exp_rxp[3]" LOC = N3;
+NET "pci_exp_txn[3]" LOC = M2;
+NET "pci_exp_txp[3]" LOC = M1;
+# PCIe Lane 4
+INST "pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[4].GTX" LOC = GTXE1_X0Y11;
+NET "pci_exp_rxn[4]" LOC = R4;
+NET "pci_exp_rxp[4]" LOC = R3;
+NET "pci_exp_txn[4]" LOC = P2;
+NET "pci_exp_txp[4]" LOC = P1;
+# PCIe Lane 5
+INST "pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[5].GTX" LOC = GTXE1_X0Y10;
+NET "pci_exp_rxn[5]" LOC = U4;
+NET "pci_exp_rxp[5]" LOC = U3;
+NET "pci_exp_txn[5]" LOC = T2;
+NET "pci_exp_txp[5]" LOC = T1;
+# PCIe Lane 6
+INST "pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[6].GTX" LOC = GTXE1_X0Y9;
+NET "pci_exp_rxn[6]" LOC = W4;
+NET "pci_exp_rxp[6]" LOC = W3;
+NET "pci_exp_txn[6]" LOC = V2;
+NET "pci_exp_txp[6]" LOC = V1;
+# PCIe Lane 7
+INST "pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/GTXD[7].GTX" LOC = GTXE1_X0Y8;
+NET "pci_exp_rxn[7]" LOC = AA4;
+NET "pci_exp_rxp[7]" LOC = AA3;
+NET "pci_exp_txn[7]" LOC = Y2;
+NET "pci_exp_txp[7]" LOC = Y1;
+#
+# PCI Express Block placement. This constraint selects the PCI Express
+# Block to be used.
+#
+INST "pcie_pio_app/core/pcie_2_0_i/pcie_block_i" LOC = PCIE_X0Y1;
+# Timing Constraints
+NET "pcie_pio_app/sys_clk_c" TNM_NET = "SYSCLK";
+NET "pcie_pio_app/core/pcie_clocking_i/clk_125" TNM_NET = "CLK_125";
+NET "pcie_pio_app/core/pcie_clocking_i/clk_250" TNM_NET = "CLK_250";
+NET "pcie_pio_app/core/pcie_clocking_i/clk_20" TNM_NET = "CLK_20";
+
+TIMESPEC TS_SYSCLK = PERIOD "SYSCLK" 100 MHz HIGH 50 %;
+TIMESPEC TS_CLK_125 = PERIOD "CLK_125" TS_SYSCLK * 1.25 HIGH 50 % PRIORITY 100;
+TIMESPEC TS_CLK_250 = PERIOD "CLK_250" TS_SYSCLK * 2.5 HIGH 50 % PRIORITY 1;
+# actual clock frequency is 18.18MHz. Timespec is 20Mhz for margin
+TIMESPEC TS_CLK_20 = PERIOD "CLK_20" TS_SYSCLK * 0.2 HIGH 50 % PRIORITY 100;
+
+NET "pcie_pio_app/core/pcie_2_0_i/pcie_gt_i/clock_locked_inv" TIG;
+NET "programmer_i/SR_reg*" TIG;
+#NET "programmer_i/error_reg*" TIG;
+#INST "programmer_i/SR_reg_*" TNM = "source_group"; 
+#INST "pcie_pio_app/app/PIO/PIO_EP/EP_TX/trn_td_*" TNM = "destination_group"; 
+#TIMESPEC TS_01 = FROM "source_group" TO "destination_group" TS_CLK_250*3; 
+
+
+
+
+NET "ERROR_pin<2>" LOC = AC22;
+NET "ERROR_pin<1>" LOC  = AC24;
+NET "ERROR_pin<0>" LOC  = AE22;
+NET "led_0" LOC = AD24;
+NET "led_1" LOC = AE24;
+
+
+NET A_pin<24> LOC = AA23;
+NET A_pin<23> LOC = AL9;
+NET A_pin<22> LOC = AF9;
+NET A_pin<21> LOC = AF10;
+NET A_pin<20> LOC = AN9;
+NET A_pin<19> LOC = AP9;
+NET A_pin<18> LOC = AG8;
+NET A_pin<17> LOC = AH8;
+NET A_pin<16> LOC = F9;
+NET A_pin<15> LOC = F10;
+NET A_pin<14> LOC = C10;
+NET A_pin<13> LOC = D10;
+NET A_pin<12> LOC = C9;
+NET A_pin<11> LOC = D9;
+NET A_pin<10> LOC = A9;
+NET A_pin<9> LOC = A8;
+NET A_pin<8> LOC = E8;
+NET A_pin<7> LOC = E9;
+NET A_pin<6> LOC = B8;
+NET A_pin<5> LOC = C8;
+NET A_pin<4> LOC = AD10;
+NET A_pin<3> LOC = AC9;
+NET A_pin<2> LOC = AK8;
+NET A_pin<1> LOC = AL8;
+Net A_pin<*> IOSTANDARD=LVCMOS25;
+
+NET DQ_pin<15> LOC = M23;
+NET DQ_pin<14> LOC = L24;
+NET DQ_pin<13> LOC = F24;
+NET DQ_pin<12> LOC = F23;
+NET DQ_pin<11> LOC = N23;
+NET DQ_pin<10> LOC = N24;
+NET DQ_pin<9> LOC = H23;
+NET DQ_pin<8> LOC = G23;
+NET DQ_pin<7> LOC = R24;
+NET DQ_pin<6> LOC = P24;
+NET DQ_pin<5> LOC = H25;
+NET DQ_pin<4> LOC = H24;
+NET DQ_pin<3> LOC = V24;
+NET DQ_pin<2> LOC = W24;
+NET DQ_pin<1> LOC = AF25;
+NET DQ_pin<0> LOC = AF24;
+NET DQ_pin<*> IOSTANDARD=LVCMOS25;
+
+Net CS_SEL_pin LOC=AJ12;
+NET CS_SEL_pin IOSTANDARD=LVCMOS25;
+
+Net CS_N_pin LOC=Y24;
+NET CS_N_pin IOSTANDARD=LVCMOS25;
+
+Net WE_N_pin LOC=AF23;
+NET WE_N_pin IOSTANDARD=LVCMOS25;
+
+Net OE_N_pin LOC=AA24;
+NET OE_N_pin IOSTANDARD=LVCMOS25;

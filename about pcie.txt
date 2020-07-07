@@ -1,0 +1,15 @@
+I mainly design hardware. I am not very familiar with the software. 
+I downloaded these two PCIe codes online.
+
+V6_365T\xapp518\ML605\ML605\hw\ISE\PCIe_ISP_Virtex-6  
+
+This project. The computer can recognize the FPGA board. 
+However, when installing the driver,
+there is a problem with the INF file.
+
+
+V6_365T\PCIE_riffa\V6_pcie
+
+This project. The computer can recognize the FPGA board. 
+However, when installing the driver,
+Show a yellow exclamation mark.

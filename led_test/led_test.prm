@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o E:\Project\AX845\verilog\led_test//led_test.mcs -s 16384 -u 0000 E:/Project/AX845/verilog/led_test/led_test.bit -spi 
+
+PROM E:\Project\AX845\verilog\led_test\led_test.prm map: Fri May 22 17:53:22 2015
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          16384K
+PROM start    0000:0000
+PROM end      00ff:ffff
+PROM checksum e87a43fe
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0016:a673     May 22 17:41:25 2015 E:/Project/AX845/verilog/led_test/led_test.bit

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=E:\V6\led_test\led_test.ncd
+OUTFILE=E:\V6\led_test\led_test.bit
+FAMILY=Virtex6
+PART=xc6vlx365t-1ff1156
+WORKINGDIR=E:\V6\led_test
+LICENSE=ISE
+USER_INFO=__0_0_0

@@ -1,0 +1,18 @@
+
+
+NET "pci_exp_rxp[7]" LOC = AA3;
+NET "pci_exp_rxp[6]" LOC = W3;
+NET "pci_exp_rxp[5]" LOC = U3;
+NET "pci_exp_rxp[4]" LOC = R3;
+NET "pci_exp_rxp[3]" LOC = N3;
+NET "pci_exp_rxp[2]" LOC = L3;
+NET "pci_exp_rxp[1]" LOC = K5;
+NET "pci_exp_rxp[0]" LOC = J3;
+NET "sys_reset_n" LOC = AE13;
+
+# PlanAhead Generated physical constraints 
+
+NET "sys_clk_p" LOC = P6;
+NET "led_0" LOC = AP22;
+NET "led_1" LOC = AP21;
+NET "led_2" LOC = AP20;

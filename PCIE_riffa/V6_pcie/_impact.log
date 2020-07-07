@@ -1,0 +1,77 @@
+iMPACT Version: 14.7
+
+iMPACT log file Started on Sun Jul  5 03:12:28 2020
+
+Welcome to iMPACT
+iMPACT Version: 14.7
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setCable -port svf -file"/home/ise/Downloads/V6_365T/V6_365T/PCIE_riffa/V6_pcie/riffa.svf"
+INFO:iMPACT - The selected file's size (35619808 bits) is larger than devices   supported in (null) mode.
+ERROR:iMPACT:1698 - Unable to generate a list of suitably sized PROM/storage   device.
+ERROR:iMPACT - Failed to add PROM device!
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+Welcome to iMPACT
+iMPACT Version: 14.7
+Project: '/home/ise/edif_flow//auto_project.ipf' already exists.
+Original project has been renamed to '/home/ise/edif_flow//auto_project_1.ipf'.
+Project: /home/ise/edif_flow//auto_project.ipf created.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setCable -port svf -file"/home/ise/Downloads/V6_365T/V6_365T/PCIE_riffa/V6_pcie/riffa.svf"
+// *** BATCH CMD : addDevice -p 1 -file"/home/ise/Downloads/V6_365T/V6_365T/PCIE_riffa/V6_pcie/riffa_top_v6_pcie_v2_5.bit"
+'1': Loading file'/home/ise/Downloads/V6_365T/V6_365T/PCIE_riffa/V6_pcie/riffa_top_v6_pcie_v2_5.bit' ...
+done.
+INFO:iMPACT:1777 - 
+   Reading /opt/Xilinx/14.7/ISE_DS/ISE/virtex6/data/xc6vlx365t.bsd...
+INFO:iMPACT:2257 - Startup Clock has been changed to 'JtagClk' in the bitstream   stored in memory,
+   but the original bitstream file remains unchanged.
+UserID read from the bitstream file = 0xFFFFFFFF.
+INFO:iMPACT:501 - '1': Added Device xc6vlx365t successfully.
+----------------------------------------------------------------------
+INFO:iMPACT - Current time: 7/5/20 3:14 AM
+// *** BATCH CMD : Program -p 1 
+
+'1': Programming device...
+PROGRESS_START - Starting Operation.
+ Match_cycle = NoWait.
+Match cycle: NoWait
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+done.
+INFO:iMPACT:579 - '1': Completed downloading bit file to device.
+INFO:iMPACT:188 - '1': Programming completed successfully.
+ Match_cycle = NoWait.
+Match cycle: NoWait
+ LCK_cycle = NoWait.
+LCK cycle: NoWait
+INFO:iMPACT - '1': Checking done pin....done.
+'1': Programmed successfully.
+PROGRESS_END - End Operation.
+Elapsed time =      1 sec.
+Project: '/home/ise/edif_flow//auto_project.ipf' created.
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : saveProjectFile -file "/home/ise/edif_flow//auto_project.ipf"
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : deleteDevice -position 1
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -hw140
+// *** BATCH CMD : setMode -spi
+// *** BATCH CMD : setMode -acecf
+// *** BATCH CMD : setMode -acempm
+// *** BATCH CMD : setMode -pff

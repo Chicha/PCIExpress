@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.xst" -ofn "E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.syr" 
+xst -intstyle ise -ifn "E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.xst" -ofn "E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc6vlx365t-ff1156-1 riffa_top_v6_pcie_v2_5.ngc riffa_top_v6_pcie_v2_5.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o riffa_top_v6_pcie_v2_5_map.ncd riffa_top_v6_pcie_v2_5.ngd riffa_top_v6_pcie_v2_5.pcf 
+par -w -intstyle ise -ol high -mt off riffa_top_v6_pcie_v2_5_map.ncd riffa_top_v6_pcie_v2_5.ncd riffa_top_v6_pcie_v2_5.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml riffa_top_v6_pcie_v2_5.twx riffa_top_v6_pcie_v2_5.ncd -o riffa_top_v6_pcie_v2_5.twr riffa_top_v6_pcie_v2_5.pcf 
+bitgen -intstyle ise -f riffa_top_v6_pcie_v2_5.ut riffa_top_v6_pcie_v2_5.ncd 
+xst -intstyle ise -ifn "E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.xst" -ofn "E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc riffa_top_v6_pcie_v2_5.ucf -p xc6vlx365t-ff1156-1 riffa_top_v6_pcie_v2_5.ngc riffa_top_v6_pcie_v2_5.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o riffa_top_v6_pcie_v2_5_map.ncd riffa_top_v6_pcie_v2_5.ngd riffa_top_v6_pcie_v2_5.pcf 
+par -w -intstyle ise -ol high -mt off riffa_top_v6_pcie_v2_5_map.ncd riffa_top_v6_pcie_v2_5.ncd riffa_top_v6_pcie_v2_5.pcf 
+bitgen -intstyle ise -f riffa_top_v6_pcie_v2_5.ut riffa_top_v6_pcie_v2_5.ncd 
+xst -intstyle ise -ifn "E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.xst" -ofn "E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc riffa_top_v6_pcie_v2_5.ucf -p xc6vlx365t-ff1156-1 riffa_top_v6_pcie_v2_5.ngc riffa_top_v6_pcie_v2_5.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o riffa_top_v6_pcie_v2_5_map.ncd riffa_top_v6_pcie_v2_5.ngd riffa_top_v6_pcie_v2_5.pcf 
+par -w -intstyle ise -ol high -mt off riffa_top_v6_pcie_v2_5_map.ncd riffa_top_v6_pcie_v2_5.ncd riffa_top_v6_pcie_v2_5.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml riffa_top_v6_pcie_v2_5.twx riffa_top_v6_pcie_v2_5.ncd -o riffa_top_v6_pcie_v2_5.twr riffa_top_v6_pcie_v2_5.pcf -ucf riffa_top_v6_pcie_v2_5.ucf 
+bitgen -intstyle ise -f riffa_top_v6_pcie_v2_5.ut riffa_top_v6_pcie_v2_5.ncd 
+xst -intstyle ise -ifn "/home/ise/Downloads/V6_365T/V6_365T/PCIE_riffa/V6_pcie/riffa_top_v6_pcie_v2_5.xst" -ofn "/home/ise/Downloads/V6_365T/V6_365T/PCIE_riffa/V6_pcie/riffa_top_v6_pcie_v2_5.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc riffa_top_v6_pcie_v2_5.ucf -p xc6vlx365t-ff1156-1 riffa_top_v6_pcie_v2_5.ngc riffa_top_v6_pcie_v2_5.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o riffa_top_v6_pcie_v2_5_map.ncd riffa_top_v6_pcie_v2_5.ngd riffa_top_v6_pcie_v2_5.pcf 
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o riffa_top_v6_pcie_v2_5_map.ncd riffa_top_v6_pcie_v2_5.ngd riffa_top_v6_pcie_v2_5.pcf 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc riffa_top_v6_pcie_v2_5.ucf -p xc6vlx365t-ff1156-1 riffa_top_v6_pcie_v2_5.ngc riffa_top_v6_pcie_v2_5.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o riffa_top_v6_pcie_v2_5_map.ncd riffa_top_v6_pcie_v2_5.ngd riffa_top_v6_pcie_v2_5.pcf 
+par -w -intstyle ise -ol high -mt off riffa_top_v6_pcie_v2_5_map.ncd riffa_top_v6_pcie_v2_5.ncd riffa_top_v6_pcie_v2_5.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml riffa_top_v6_pcie_v2_5.twx riffa_top_v6_pcie_v2_5.ncd -o riffa_top_v6_pcie_v2_5.twr riffa_top_v6_pcie_v2_5.pcf -ucf riffa_top_v6_pcie_v2_5.ucf 
+bitgen -intstyle ise -f riffa_top_v6_pcie_v2_5.ut riffa_top_v6_pcie_v2_5.ncd 

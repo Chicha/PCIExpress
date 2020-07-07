@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\ISE\PCIe_ISP_Virtex-6\PCIe_ISP_top.ncd
+OUTFILE=F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\ISE\PCIe_ISP_Virtex-6\PCIe_ISP_top.bit
+FAMILY=Virtex6
+PART=xc6vlx365t-1ff1156
+WORKINGDIR=F:\BaiduYunDownload\ML605\xapp518\ML605\ML605\hw\ISE\PCIe_ISP_Virtex-6
+LICENSE=ISE
+USER_INFO=__0_0_0

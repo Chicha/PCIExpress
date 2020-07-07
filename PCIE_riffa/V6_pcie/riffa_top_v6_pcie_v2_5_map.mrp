@@ -1,0 +1,715 @@
+Release 14.7 Map P.20131013 (lin64)
+Xilinx Mapping Report File for Design 'riffa_top_v6_pcie_v2_5'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o riffa_top_v6_pcie_v2_5_map.ncd
+riffa_top_v6_pcie_v2_5.ngd riffa_top_v6_pcie_v2_5.pcf 
+Target Device  : xc6vlx365t
+Target Package : ff1156
+Target Speed   : -1
+Mapper Version : virtex6 -- $Revision: 1.55 $
+Mapped Date    : Sun Jul  5 00:23:05 2020
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   70
+Slice Logic Utilization:
+  Number of Slice Registers:                15,789 out of 455,040    3%
+    Number used as Flip Flops:              15,788
+    Number used as Latches:                      1
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                     13,930 out of 227,520    6%
+    Number used as logic:                   12,509 out of 227,520    5%
+      Number using O6 output only:           6,262
+      Number using O5 output only:           1,762
+      Number using O5 and O6:                4,485
+      Number used as ROM:                        0
+    Number used as Memory:                     494 out of  66,080    1%
+      Number used as Dual Port RAM:            256
+        Number using O6 output only:             4
+        Number using O5 output only:             4
+        Number using O5 and O6:                248
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           238
+        Number using O6 output only:           203
+        Number using O5 output only:             0
+        Number using O5 and O6:                 35
+    Number used exclusively as route-thrus:    927
+      Number with same-slice register load:    733
+      Number with same-slice carry load:       194
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 4,917 out of  56,880    8%
+  Number of LUT Flip Flop pairs used:       16,331
+    Number with an unused Flip Flop:         3,532 out of  16,331   21%
+    Number with an unused LUT:               2,401 out of  16,331   14%
+    Number of fully used LUT-FF pairs:      10,398 out of  16,331   63%
+    Number of unique control sets:             270
+    Number of slice register sites lost
+      to control set restrictions:             858 out of 455,040    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                         4 out of     600    1%
+    Number of LOCed IOBs:                        4 out of       4  100%
+    Number of bonded IPADs:                     18
+      Number of LOCed IPADs:                     9 out of      18   50%
+    Number of bonded OPADs:                     16
+
+Specific Feature Utilization:
+  Number of RAMB36E1/FIFO36E1s:                 41 out of     416    9%
+    Number using RAMB36E1 only:                 41
+    Number using FIFO36E1 only:                  0
+  Number of RAMB18E1/FIFO18E1s:                  0 out of     832    0%
+  Number of BUFG/BUFGCTRLs:                      5 out of      32   15%
+    Number used as BUFGs:                        5
+    Number used as BUFGCTRLs:                    0
+  Number of ILOGICE1/ISERDESE1s:                 0 out of     960    0%
+  Number of OLOGICE1/OSERDESE1s:                 1 out of     960    1%
+    Number used as OLOGICE1s:                    1
+    Number used as OSERDESE1s:                   0
+  Number of BSCANs:                              0 out of       4    0%
+  Number of BUFHCEs:                             0 out of     144    0%
+  Number of BUFIODQSs:                           0 out of      96    0%
+  Number of BUFRs:                               0 out of      48    0%
+  Number of CAPTUREs:                            0 out of       1    0%
+  Number of DSP48E1s:                            0 out of     576    0%
+  Number of EFUSE_USRs:                          0 out of       1    0%
+  Number of FRAME_ECCs:                          0 out of       1    0%
+  Number of GTXE1s:                              8 out of      20   40%
+  Number of IBUFDS_GTXE1s:                       1 out of      12    8%
+  Number of ICAPs:                               0 out of       2    0%
+  Number of IDELAYCTRLs:                         0 out of      24    0%
+  Number of IODELAYE1s:                          0 out of     960    0%
+  Number of MMCM_ADVs:                           1 out of      12    8%
+  Number of PCIE_2_0s:                           1 out of       2   50%
+  Number of STARTUPs:                            1 out of       1  100%
+  Number of SYSMONs:                             0 out of       1    0%
+  Number of TEMAC_SINGLEs:                       0 out of       4    0%
+
+Average Fanout of Non-Clock Nets:                3.26
+
+Peak Memory Usage:  1549 MB
+Total REAL time to MAP completion:  2 mins 25 secs 
+Total CPU time to MAP completion:   2 mins 16 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/asyncCo
+   mpare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[2].channel/rxPort/mainFifo/fifo/asy
+   ncCompare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[3].channel/rxPort/mainFifo/fifo/asy
+   ncCompare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[0].channel/rxPort/mainFifo/fifo/asy
+   ncCompare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/asyncCo
+   mpare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[1].channel/rxPort/mainFifo/fifo/asy
+   ncCompare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/asyncCo
+   mpare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/asyncCo
+   mpare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM11_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM10_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM9_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM5_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM3_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM4_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM6_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM8_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM7_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM8_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM11_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM10_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM5_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM11_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM3_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM4_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM6_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM7_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM4_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM11_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM3_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM4_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM6_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM9_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM3_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM8_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM10_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM5_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM7_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM5_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM9_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM6_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM7_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM9_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM8_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM10_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/reorderQueue/mapRam/Mram_rRAM_RAMD_D1
+   _O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/reorderQueue/pktRam/Mram_rRAM1_RAMD_D
+   1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/reorderQueue/pktRam/Mram_rRAM2_RAMD_D
+   1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/reorderQueue/data_input/posRam/Mram_r
+   RAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/reorderQueue/data_input/posRam/Mram_r
+   RAM2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM4_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM3_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM1_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/reorderQueue/data_input/countRam/Mram
+   _rRAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM5_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM2_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM6_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM7_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM8_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM9_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM12_RAMD_D1
+   _O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM11_RAMD_D1
+   _O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM10_RAMD_D1
+   _O> is incomplete. The signal does not drive any load pins in the design.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network fc_cpld<11> has no load.
+INFO:LIT:395 - The above info message is repeated 170 more times for the
+   following (max. 5 shown):
+   fc_cpld<10>,
+   fc_cpld<9>,
+   fc_cpld<8>,
+   fc_cpld<7>,
+   fc_cpld<6>
+   To see the details of these info messages, please use the -detail switch.
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 0.950 Volts. (default - Range: 0.950 to
+   1.050 Volts)
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+   1 block(s) removed
+   6 block(s) optimized away
+ 162 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block
+"core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/no_of_lanes.GTXD[5].GTX_RX_VALID_FILTER/rx_e
+lec_idle_delay" (SRL16E) removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "fc_cpld<11>" is unused and has been removed.
+The signal "fc_cpld<10>" is unused and has been removed.
+The signal "fc_cpld<9>" is unused and has been removed.
+The signal "fc_cpld<8>" is unused and has been removed.
+The signal "fc_cpld<7>" is unused and has been removed.
+The signal "fc_cpld<6>" is unused and has been removed.
+The signal "fc_cpld<5>" is unused and has been removed.
+The signal "fc_cpld<4>" is unused and has been removed.
+The signal "fc_cpld<3>" is unused and has been removed.
+The signal "fc_cpld<2>" is unused and has been removed.
+The signal "fc_cpld<1>" is unused and has been removed.
+The signal "fc_cpld<0>" is unused and has been removed.
+The signal "fc_cplh<7>" is unused and has been removed.
+The signal "fc_cplh<6>" is unused and has been removed.
+The signal "fc_cplh<5>" is unused and has been removed.
+The signal "fc_cplh<4>" is unused and has been removed.
+The signal "fc_cplh<3>" is unused and has been removed.
+The signal "fc_cplh<2>" is unused and has been removed.
+The signal "fc_cplh<1>" is unused and has been removed.
+The signal "fc_cplh<0>" is unused and has been removed.
+The signal "fc_npd<11>" is unused and has been removed.
+The signal "fc_npd<10>" is unused and has been removed.
+The signal "fc_npd<9>" is unused and has been removed.
+The signal "fc_npd<8>" is unused and has been removed.
+The signal "fc_npd<7>" is unused and has been removed.
+The signal "fc_npd<6>" is unused and has been removed.
+The signal "fc_npd<5>" is unused and has been removed.
+The signal "fc_npd<4>" is unused and has been removed.
+The signal "fc_npd<3>" is unused and has been removed.
+The signal "fc_npd<2>" is unused and has been removed.
+The signal "fc_npd<1>" is unused and has been removed.
+The signal "fc_npd<0>" is unused and has been removed.
+The signal "fc_nph<7>" is unused and has been removed.
+The signal "fc_nph<6>" is unused and has been removed.
+The signal "fc_nph<5>" is unused and has been removed.
+The signal "fc_nph<4>" is unused and has been removed.
+The signal "fc_nph<3>" is unused and has been removed.
+The signal "fc_nph<2>" is unused and has been removed.
+The signal "fc_nph<1>" is unused and has been removed.
+The signal "fc_nph<0>" is unused and has been removed.
+The signal "fc_pd<11>" is unused and has been removed.
+The signal "fc_pd<10>" is unused and has been removed.
+The signal "fc_pd<9>" is unused and has been removed.
+The signal "fc_pd<8>" is unused and has been removed.
+The signal "fc_pd<7>" is unused and has been removed.
+The signal "fc_pd<6>" is unused and has been removed.
+The signal "fc_pd<5>" is unused and has been removed.
+The signal "fc_pd<4>" is unused and has been removed.
+The signal "fc_pd<3>" is unused and has been removed.
+The signal "fc_pd<2>" is unused and has been removed.
+The signal "fc_pd<1>" is unused and has been removed.
+The signal "fc_pd<0>" is unused and has been removed.
+The signal "fc_ph<7>" is unused and has been removed.
+The signal "fc_ph<6>" is unused and has been removed.
+The signal "fc_ph<5>" is unused and has been removed.
+The signal "fc_ph<4>" is unused and has been removed.
+The signal "fc_ph<3>" is unused and has been removed.
+The signal "fc_ph<2>" is unused and has been removed.
+The signal "fc_ph<1>" is unused and has been removed.
+The signal "fc_ph<0>" is unused and has been removed.
+The signal "cfg_do<31>" is unused and has been removed.
+The signal "cfg_do<30>" is unused and has been removed.
+The signal "cfg_do<29>" is unused and has been removed.
+The signal "cfg_do<28>" is unused and has been removed.
+The signal "cfg_do<27>" is unused and has been removed.
+The signal "cfg_do<26>" is unused and has been removed.
+The signal "cfg_do<25>" is unused and has been removed.
+The signal "cfg_do<24>" is unused and has been removed.
+The signal "cfg_do<23>" is unused and has been removed.
+The signal "cfg_do<22>" is unused and has been removed.
+The signal "cfg_do<21>" is unused and has been removed.
+The signal "cfg_do<20>" is unused and has been removed.
+The signal "cfg_do<19>" is unused and has been removed.
+The signal "cfg_do<18>" is unused and has been removed.
+The signal "cfg_do<17>" is unused and has been removed.
+The signal "cfg_do<16>" is unused and has been removed.
+The signal "cfg_do<15>" is unused and has been removed.
+The signal "cfg_do<14>" is unused and has been removed.
+The signal "cfg_do<13>" is unused and has been removed.
+The signal "cfg_do<12>" is unused and has been removed.
+The signal "cfg_do<11>" is unused and has been removed.
+The signal "cfg_do<10>" is unused and has been removed.
+The signal "cfg_do<9>" is unused and has been removed.
+The signal "cfg_do<8>" is unused and has been removed.
+The signal "cfg_do<7>" is unused and has been removed.
+The signal "cfg_do<6>" is unused and has been removed.
+The signal "cfg_do<5>" is unused and has been removed.
+The signal "cfg_do<4>" is unused and has been removed.
+The signal "cfg_do<3>" is unused and has been removed.
+The signal "cfg_do<2>" is unused and has been removed.
+The signal "cfg_do<1>" is unused and has been removed.
+The signal "cfg_do<0>" is unused and has been removed.
+The signal "cfg_interrupt_do<7>" is unused and has been removed.
+The signal "cfg_interrupt_do<6>" is unused and has been removed.
+The signal "cfg_interrupt_do<5>" is unused and has been removed.
+The signal "cfg_interrupt_do<4>" is unused and has been removed.
+The signal "cfg_interrupt_do<3>" is unused and has been removed.
+The signal "cfg_interrupt_do<2>" is unused and has been removed.
+The signal "cfg_interrupt_do<1>" is unused and has been removed.
+The signal "cfg_interrupt_do<0>" is unused and has been removed.
+The signal "cfg_interrupt_mmenable<2>" is unused and has been removed.
+The signal "cfg_interrupt_mmenable<1>" is unused and has been removed.
+The signal "cfg_interrupt_mmenable<0>" is unused and has been removed.
+The signal "cfg_command<10>" is unused and has been removed.
+The signal "cfg_command<8>" is unused and has been removed.
+The signal "cfg_command<2>" is unused and has been removed.
+The signal "cfg_command<1>" is unused and has been removed.
+The signal "cfg_command<0>" is unused and has been removed.
+The signal "cfg_dstatus<3>" is unused and has been removed.
+The signal "cfg_dstatus<2>" is unused and has been removed.
+The signal "cfg_dstatus<1>" is unused and has been removed.
+The signal "cfg_dstatus<0>" is unused and has been removed.
+The signal "cfg_dcommand<11>" is unused and has been removed.
+The signal "cfg_dcommand<10>" is unused and has been removed.
+The signal "cfg_dcommand<9>" is unused and has been removed.
+The signal "cfg_dcommand<8>" is unused and has been removed.
+The signal "cfg_dcommand<4>" is unused and has been removed.
+The signal "cfg_dcommand<3>" is unused and has been removed.
+The signal "cfg_dcommand<2>" is unused and has been removed.
+The signal "cfg_dcommand<1>" is unused and has been removed.
+The signal "cfg_dcommand<0>" is unused and has been removed.
+The signal "cfg_lstatus<15>" is unused and has been removed.
+The signal "cfg_lstatus<14>" is unused and has been removed.
+The signal "cfg_lstatus<13>" is unused and has been removed.
+The signal "cfg_lstatus<11>" is unused and has been removed.
+The signal "cfg_lstatus<7>" is unused and has been removed.
+The signal "cfg_lstatus<6>" is unused and has been removed.
+The signal "cfg_lstatus<5>" is unused and has been removed.
+The signal "cfg_lstatus<4>" is unused and has been removed.
+The signal "cfg_lstatus<1>" is unused and has been removed.
+The signal "cfg_lstatus<0>" is unused and has been removed.
+The signal "cfg_lcommand<11>" is unused and has been removed.
+The signal "cfg_lcommand<10>" is unused and has been removed.
+The signal "cfg_lcommand<9>" is unused and has been removed.
+The signal "cfg_lcommand<8>" is unused and has been removed.
+The signal "cfg_lcommand<7>" is unused and has been removed.
+The signal "cfg_lcommand<6>" is unused and has been removed.
+The signal "cfg_lcommand<5>" is unused and has been removed.
+The signal "cfg_lcommand<4>" is unused and has been removed.
+The signal "cfg_lcommand<3>" is unused and has been removed.
+The signal "cfg_lcommand<1>" is unused and has been removed.
+The signal "cfg_lcommand<0>" is unused and has been removed.
+The signal "cfg_dcommand2<4>" is unused and has been removed.
+The signal "cfg_dcommand2<3>" is unused and has been removed.
+The signal "cfg_dcommand2<2>" is unused and has been removed.
+The signal "cfg_dcommand2<1>" is unused and has been removed.
+The signal "cfg_dcommand2<0>" is unused and has been removed.
+The signal "pl_initial_link_width<2>" is unused and has been removed.
+The signal "pl_initial_link_width<1>" is unused and has been removed.
+The signal "pl_initial_link_width<0>" is unused and has been removed.
+The signal "pl_lane_reversal_mode<1>" is unused and has been removed.
+The signal "pl_lane_reversal_mode<0>" is unused and has been removed.
+The signal "pl_sel_link_width<1>" is unused and has been removed.
+The signal "pl_sel_link_width<0>" is unused and has been removed.
+The signal "cfg_interrupt_msixenable" is unused and has been removed.
+The signal "cfg_interrupt_msixfm" is unused and has been removed.
+The signal "cfg_to_turnoff" is unused and has been removed.
+The signal "pl_link_gen2_capable" is unused and has been removed.
+The signal "pl_link_partner_gen2_supported" is unused and has been removed.
+The signal "pl_link_upcfg_capable" is unused and has been removed.
+The signal "pl_received_hot_rst" is unused and has been removed.
+The signal "pl_sel_link_rate" is unused and has been removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+GND 		app/XST_GND
+VCC 		app/XST_VCC
+GND 		app/endpoint/endpoint64.endpoint/XST_GND
+VCC 		app/endpoint/endpoint64.endpoint/XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| led_0                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_1                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_2                              | IOB              | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| pci_exp_rxn<0>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<1>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<2>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<3>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<4>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<5>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<6>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<7>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<0>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<1>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<2>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<3>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<4>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<5>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<6>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<7>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_txn<0>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<1>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<2>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<3>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<4>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<5>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<6>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<7>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<0>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<1>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<2>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<3>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<4>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<5>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<6>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<7>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| sys_clk_n                          | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| sys_clk_p                          | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| sys_reset_n                        | IOB              | INPUT     | LVCMOS25             |       |          |      |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

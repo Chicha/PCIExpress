@@ -1,0 +1,16 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "clk" LOC = H28;
+NET "key_input" LOC = A9;
+NET "rst" LOC = A10;
+NET "rxd" LOC = B8;
+NET "txd" LOC = A8;
+NET "seg_data[7]" LOC = AP22;
+NET "seg_data[6]" LOC = AP21;
+NET "seg_data[5]" LOC = AP20;
+NET "seg_data[4]" LOC = AP19;
+NET "seg_data[3]" LOC = AP17;
+NET "seg_data[2]" LOC = AP15;
+NET "seg_data[1]" LOC = AN14;
+NET "seg_data[0]" LOC = AP14;

@@ -1,0 +1,19 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Tue Apr 23 21:51:33 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "clk" LOCATE = SITE "H28" LEVEL 1;
+COMP "led_out<0>" LOCATE = SITE "AP22" LEVEL 1;
+COMP "led_out<1>" LOCATE = SITE "AP14" LEVEL 1;
+COMP "key_in<0>" LOCATE = SITE "A9" LEVEL 1;
+COMP "key_in<1>" LOCATE = SITE "A10" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "key_scan_0" BEL "key_scan_1" BEL "key_scan_r_0" BEL
+        "key_scan_r_1" BEL "temp_led_0" BEL "temp_led_1" BEL "count_0" BEL
+        "count_1" BEL "count_2" BEL "count_3" BEL "count_4" BEL "count_5" BEL
+        "count_6" BEL "count_7" BEL "count_8" BEL "count_9" BEL "count_10" BEL
+        "count_11" BEL "count_12" BEL "count_13" BEL "count_14" BEL "count_15"
+        BEL "count_16" BEL "count_17" BEL "count_18" BEL "count_19" BEL
+        "clk_BUFGP/BUFG";
+SCHEMATIC END;
+

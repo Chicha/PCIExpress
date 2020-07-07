@@ -1,0 +1,25 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sun Jun 09 19:32:23 2019
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "led<0>" LOCATE = SITE "AP22" LEVEL 1;
+COMP "led<1>" LOCATE = SITE "AP21" LEVEL 1;
+COMP "led<2>" LOCATE = SITE "AP20" LEVEL 1;
+COMP "clk" LOCATE = SITE "H28" LEVEL 1;
+COMP "led<3>" LOCATE = SITE "AP19" LEVEL 1;
+COMP "led<4>" LOCATE = SITE "AP17" LEVEL 1;
+COMP "led<5>" LOCATE = SITE "AP15" LEVEL 1;
+COMP "led<6>" LOCATE = SITE "AN14" LEVEL 1;
+COMP "led<7>" LOCATE = SITE "AP14" LEVEL 1;
+TIMEGRP sys_clk_pin = BEL "led_0" BEL "led_1" BEL "led_2" BEL "led_3" BEL
+        "led_4" BEL "led_5" BEL "led_6" BEL "timer_0" BEL "timer_1" BEL
+        "timer_2" BEL "timer_3" BEL "timer_4" BEL "timer_5" BEL "timer_6" BEL
+        "timer_7" BEL "timer_8" BEL "timer_9" BEL "timer_10" BEL "timer_11"
+        BEL "timer_12" BEL "timer_13" BEL "timer_14" BEL "timer_15" BEL
+        "timer_16" BEL "timer_17" BEL "timer_18" BEL "timer_19" BEL "timer_20"
+        BEL "timer_21" BEL "timer_22" BEL "timer_23" BEL "timer_24" BEL
+        "timer_25" BEL "timer_26" BEL "timer_27" BEL "timer_28" BEL "timer_29"
+        BEL "timer_30" BEL "timer_31" BEL "led_7" BEL "clk_BUFGP/BUFG";
+SCHEMATIC END;
+

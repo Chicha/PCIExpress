@@ -1,0 +1,633 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'PCIe_ISP_top'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off
+-power off -o PCIe_ISP_top_map.ncd PCIe_ISP_top.ngd PCIe_ISP_top.pcf 
+Target Device  : xc7k325t
+Target Package : ffg900
+Target Speed   : -2
+Mapper Version : kintex7 -- $Revision: 1.55 $
+Mapped Date    : Wed May 15 19:27:15 2019
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    4
+Slice Logic Utilization:
+  Number of Slice Registers:                 3,289 out of 407,600    1%
+    Number used as Flip Flops:               3,288
+    Number used as Latches:                      1
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      1,887 out of 203,800    1%
+    Number used as logic:                    1,511 out of 203,800    1%
+      Number using O6 output only:             876
+      Number using O5 output only:             153
+      Number using O5 and O6:                  482
+      Number used as ROM:                        0
+    Number used as Memory:                     103 out of  64,000    1%
+      Number used as Dual Port RAM:              0
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           103
+        Number using O6 output only:            59
+        Number using O5 output only:             0
+        Number using O5 and O6:                 44
+    Number used exclusively as route-thrus:    273
+      Number with same-slice register load:    242
+      Number with same-slice carry load:        31
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,251 out of  50,950    2%
+  Number of LUT Flip Flop pairs used:        3,209
+    Number with an unused Flip Flop:           475 out of   3,209   14%
+    Number with an unused LUT:               1,322 out of   3,209   41%
+    Number of fully used LUT-FF pairs:       1,412 out of   3,209   44%
+    Number of unique control sets:             127
+    Number of slice register sites lost
+      to control set restrictions:             564 out of 407,600    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+  OVERMAPPING of BRAM resources should be ignored if the design is
+  over-mapped for a non-BRAM resource or if placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        52 out of     500   10%
+    Number of LOCed IOBs:                       52 out of      52  100%
+    Number of bonded IPADs:                     18
+    Number of bonded OPADs:                     16
+
+Specific Feature Utilization:
+  Number of RAMB36E1/FIFO36E1s:                 14 out of     445    3%
+    Number using RAMB36E1 only:                 13
+    Number using FIFO36E1 only:                  1
+  Number of RAMB18E1/FIFO18E1s:                  1 out of     890    1%
+    Number using RAMB18E1 only:                  1
+    Number using FIFO18E1 only:                  0
+  Number of BUFG/BUFGCTRLs:                      7 out of      32   21%
+    Number used as BUFGs:                        6
+    Number used as BUFGCTRLs:                    1
+  Number of IDELAYE2/IDELAYE2_FINEDELAYs:        0 out of     500    0%
+  Number of ILOGICE2/ILOGICE3/ISERDESE2s:        0 out of     500    0%
+  Number of ODELAYE2/ODELAYE2_FINEDELAYs:        0 out of     150    0%
+  Number of OLOGICE2/OLOGICE3/OSERDESE2s:        1 out of     500    1%
+    Number used as OLOGICE2s:                    1
+    Number used as OLOGICE3s:                    0
+    Number used as OSERDESE2s:                   0
+  Number of PHASER_IN/PHASER_IN_PHYs:            0 out of      40    0%
+  Number of PHASER_OUT/PHASER_OUT_PHYs:          0 out of      40    0%
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFHCEs:                             0 out of     168    0%
+  Number of BUFRs:                               0 out of      40    0%
+  Number of CAPTUREs:                            0 out of       1    0%
+  Number of DNA_PORTs:                           0 out of       1    0%
+  Number of DSP48E1s:                            0 out of     840    0%
+  Number of EFUSE_USRs:                          0 out of       1    0%
+  Number of FRAME_ECCs:                          0 out of       1    0%
+  Number of GTXE2_CHANNELs:                      8 out of      16   50%
+    Number of LOCed GTXE2_CHANNELs:              8 out of       8  100%
+  Number of GTXE2_COMMONs:                       2 out of       4   50%
+  Number of IBUFDS_GTE2s:                        1 out of       8   12%
+    Number of LOCed IBUFDS_GTE2s:                1 out of       1  100%
+  Number of ICAPs:                               0 out of       2    0%
+  Number of IDELAYCTRLs:                         0 out of      10    0%
+  Number of IN_FIFOs:                            0 out of      40    0%
+  Number of MMCME2_ADVs:                         1 out of      10   10%
+    Number of LOCed MMCME2_ADVs:                 1 out of       1  100%
+  Number of OUT_FIFOs:                           0 out of      40    0%
+  Number of PCIE_2_1s:                           1 out of       1  100%
+    Number of LOCed PCIE_2_1s:                   1 out of       1  100%
+  Number of PHASER_REFs:                         0 out of      10    0%
+  Number of PHY_CONTROLs:                        0 out of      10    0%
+  Number of PLLE2_ADVs:                          0 out of      10    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of XADCs:                               0 out of       1    0%
+
+Average Fanout of Non-Clock Nets:                2.74
+
+Peak Memory Usage:  1237 MB
+Total REAL time to MAP completion:  5 mins 40 secs 
+Total CPU time to MAP completion:   5 mins 38 secs 
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:LIT:701 - PAD symbol "pci_exp_rxp<7>" has an undefined IOSTANDARD.
+WARNING:LIT:702 - PAD symbol "pci_exp_rxp<7>" is not constrained (LOC) to a
+   specific location.
+WARNING:Pack:2874 - Trimming timing constraints from pin
+   pcie_pio_app/ext_clk.pipe_clock_i/mmcm_i
+   of frag RST connected to power/ground net ADV_N_pin_OBUF
+WARNING:PhysDesignRules:372 - Gated clock. Clock net programmer_i/CONTROL<13> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+
+Section 3 - Informational
+-------------------------
+INFO:LIT:243 - Logical network programmer_i/CONTROL<7> has no load.
+INFO:LIT:395 - The above info message is repeated 25 more times for the
+   following (max. 5 shown):
+   programmer_i/CONTROL<10>,
+   programmer_i/CONTROL<11>,
+   programmer_i/CONTROL<15>,
+   programmer_i/CONTROL<16>,
+   programmer_i/CONTROL<17>
+   To see the details of these info messages, please use the -detail switch.
+INFO:LIT:244 - All of the single ended outputs in this design are using slew
+   rate limited output drivers. The delay on speed critical single ended outputs
+   can be dramatically reduced by designating them as fast outputs.
+INFO:Pack:1716 - Initializing temperature to 85.000 Celsius. (default - Range:
+   0.000 to 85.000 Celsius)
+INFO:Pack:1720 - Initializing voltage to 0.970 Volts. (default - Range: 0.970 to
+   1.030 Volts)
+INFO:Timing:3386 - Intersecting Constraints found and resolved.  For more information, see the TSI report.  Please consult the Xilinx
+   Command Line Tools User Guide for information on generating a TSI report.
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+INFO:Pack:1650 - Map created a placed design.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+  59 block(s) removed
+ 113 block(s) optimized away
+  44 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "pcie_pio_app/sysclk_buf_i" (CKBUF) removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[10].U_LUT" (ROM)
+removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[11].U_LUT" (ROM)
+removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[12].U_LUT" (ROM)
+removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[13].U_LUT" (ROM)
+removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[14].U_LUT" (ROM)
+removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[1].U_LUT" (ROM)
+removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[2].U_LUT" (ROM)
+removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[3].U_LUT" (ROM)
+removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[4].U_LUT" (ROM)
+removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[5].U_LUT" (ROM)
+removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[6].U_LUT" (ROM)
+removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[7].U_LUT" (ROM)
+removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[8].U_LUT" (ROM)
+removed.
+Loadless block
+"programmer_i/icon_i/U0/U_ICON/U_CMD/U_CORE_ID_SEL/I4.FI[9].U_LUT" (ROM)
+removed.
+Loadless block "programmer_i/ila_t16_d96_i/U0/I_YES_D.U_ILA/U_STAT/U_DSR" (ROM)
+removed.
+Loadless block
+"programmer_i/ila_t16_d96_i/U0/I_YES_D.U_ILA/U_TRIG/U_TC/I_STORAGE_QUAL.U_CAP_B"
+(ROM) removed.
+The signal "programmer_i/CONTROL<7>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<10>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<11>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<15>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<16>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<17>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<18>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<19>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<21>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<22>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<23>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<24>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<25>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<26>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<27>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<28>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<29>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<30>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<31>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<32>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<33>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<34>" is sourceless and has been removed.
+The signal "programmer_i/CONTROL<35>" is sourceless and has been removed.
+The signal "pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/full"
+is sourceless and has been removed.
+ Sourceless block
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/overflow_int1" (ROM) removed.
+  The signal
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/overflow_int" is sourceless and has
+been removed.
+   Sourceless block
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/OVERFLOW" (FF) removed.
+    The signal
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/OVERFLOW" is sourceless and has been
+removed.
+The signal
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/UNDERFLOW" is sourceless and has been
+removed.
+The signal
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/wr_rst_reg_GND_25_o_MUX_1_o" is sourceless and
+has been removed.
+ Sourceless block
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/wr_rst_reg" (FF) removed.
+  The signal
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/wr_rst_reg" is sourceless and has been
+removed.
+   Sourceless block
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/wr_rst_fb_4" (FF) removed.
+    The signal
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/wr_rst_fb<4>" is sourceless and has been
+removed.
+     Sourceless block
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/wr_rst_fb_3" (FF) removed.
+      The signal
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/wr_rst_fb<3>" is sourceless and has been
+removed.
+       Sourceless block
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/wr_rst_fb_2" (FF) removed.
+        The signal
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/wr_rst_fb<2>" is sourceless and has been
+removed.
+         Sourceless block
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/wr_rst_fb_1" (FF) removed.
+          The signal
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/wr_rst_fb<1>" is sourceless and has been
+removed.
+           Sourceless block
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/wr_rst_fb_0" (FF) removed.
+            The signal
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/wr_rst_fb<0>" is sourceless and has been
+removed.
+             Sourceless block
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/rstbt/Mmux_wr_rst_reg_GND_25_o_MUX_1_o11" (ROM)
+removed.
+The signal
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/underflow_int" is sourceless and has
+been removed.
+ Sourceless block
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/UNDERFLOW" (FF) removed.
+The signal
+"programmer_i/ila_t16_d96_i/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MUT
+_GANDX.U_match/I_CS_GANDX.U_CS_GANDX_SRL/I_K7.U_CS_GANDX_SRL_K7/U_CS_GAND_SRL_K7
+/I_USE_RPM_EQ0.U_GAND_SRL_UNSET/SRL_Q_O" is sourceless and has been removed.
+The signal "programmer_i/icon_i/U0/U_ICON/iCOMMAND_SEL<15>" is sourceless and
+has been removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[15].U_HCE" (ROM)
+removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[15].U_LCE" (ROM)
+removed.
+The signal "programmer_i/icon_i/U0/U_ICON/iCOMMAND_SEL<14>" is sourceless and
+has been removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[14].U_HCE" (ROM)
+removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[14].U_LCE" (ROM)
+removed.
+The signal "programmer_i/icon_i/U0/U_ICON/iCOMMAND_SEL<13>" is sourceless and
+has been removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[13].U_HCE" (ROM)
+removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[13].U_LCE" (ROM)
+removed.
+The signal "programmer_i/icon_i/U0/U_ICON/iCOMMAND_SEL<12>" is sourceless and
+has been removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[12].U_HCE" (ROM)
+removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[12].U_LCE" (ROM)
+removed.
+The signal "programmer_i/icon_i/U0/U_ICON/iCOMMAND_SEL<11>" is sourceless and
+has been removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[11].U_HCE" (ROM)
+removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[11].U_LCE" (ROM)
+removed.
+The signal "programmer_i/icon_i/U0/U_ICON/iCOMMAND_SEL<7>" is sourceless and has
+been removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[7].U_HCE" (ROM)
+removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[7].U_LCE" (ROM)
+removed.
+The signal "programmer_i/icon_i/U0/U_ICON/iCOMMAND_SEL<6>" is sourceless and has
+been removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[6].U_HCE" (ROM)
+removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[6].U_LCE" (ROM)
+removed.
+The signal "programmer_i/icon_i/U0/U_ICON/iCOMMAND_SEL<3>" is sourceless and has
+been removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[3].U_HCE" (ROM)
+removed.
+ Sourceless block
+"programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[3].U_LCE" (ROM)
+removed.
+Unused block
+"pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/U0/xst_fifo_gene
+rator/gconvfifo.rf/gbiv5.bi/v6_fifo.fblk/underflow_int1" (ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[11].U_LUT"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[12].U_LUT"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[13].U_LUT"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[14].U_LUT"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[15].U_LUT"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[3].U_LUT"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[6].U_LUT"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CMD/U_COMMAND_SEL/I4.FI[7].U_LUT"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[10].U_HCE"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[1].U_HCE"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[2].U_HCE"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[4].U_HCE"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[5].U_HCE"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[8].U_HCE"
+(ROM) removed.
+Unused block "programmer_i/icon_i/U0/U_ICON/U_CTRL_OUT/F_NCP[0].F_CMD[9].U_HCE"
+(ROM) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		XST_GND
+VCC 		XST_VCC
+GND 		pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/XST_GND
+VCC 		pcie_pio_app/app/PIO/PIO_EP_inst/data_transfer_i/config_FIFO_i/XST_VCC
+GND 		programmer_i/icon_i/XST_GND
+VCC 		programmer_i/icon_i/XST_VCC
+GND
+		programmer_i/ila_t16_d96_i/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_
+SCNT_CMP/I_CS_GAND.U_CS_GAND_SRL/I_K7.U_CS_GAND_SRL_K7/I_USE_RPM_EQ0.U_GAND_SRL_
+UNSET/XST_GND
+VCC
+		programmer_i/ila_t16_d96_i/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_
+SCNT_CMP/I_CS_GAND.U_CS_GAND_SRL/I_K7.U_CS_GAND_SRL_K7/I_USE_RPM_EQ0.U_GAND_SRL_
+UNSET/XST_VCC
+GND
+		programmer_i/ila_t16_d96_i/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_
+WCNT_HCMP/I_CS_GAND.U_CS_GAND_SRL/I_K7.U_CS_GAND_SRL_K7/I_USE_RPM_EQ0.U_GAND_SRL
+_UNSET/XST_GND
+VCC
+		programmer_i/ila_t16_d96_i/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_
+WCNT_HCMP/I_CS_GAND.U_CS_GAND_SRL/I_K7.U_CS_GAND_SRL_K7/I_USE_RPM_EQ0.U_GAND_SRL
+_UNSET/XST_VCC
+GND
+		programmer_i/ila_t16_d96_i/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_
+WCNT_LCMP/I_CS_GAND.U_CS_GAND_SRL/I_K7.U_CS_GAND_SRL_K7/I_USE_RPM_EQ0.U_GAND_SRL
+_UNSET/XST_GND
+VCC
+		programmer_i/ila_t16_d96_i/U0/I_YES_D.U_ILA/U_G2_SQ.U_CAPCTRL/U_CAP_ADDRGEN/U_
+WCNT_LCMP/I_CS_GAND.U_CS_GAND_SRL/I_K7.U_CS_GAND_SRL_K7/I_USE_RPM_EQ0.U_GAND_SRL
+_UNSET/XST_VCC
+LUT4
+		programmer_i/ila_t16_d96_i/U0/I_YES_D.U_ILA/U_STAT/F_SSTAT[6].I_STAT.U_STAT
+   optimized to 0
+GND
+		programmer_i/ila_t16_d96_i/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MU
+T_GANDX.U_match/I_CS_GANDX.U_CS_GANDX_SRL/I_K7.U_CS_GANDX_SRL_K7/U_CS_GAND_SRL_K
+7/I_USE_RPM_EQ0.U_GAND_SRL_UNSET/XST_GND
+VCC
+		programmer_i/ila_t16_d96_i/U0/I_YES_D.U_ILA/U_TRIG/U_TM/G_NMU[0].U_M/U_MU/I_MU
+T_GANDX.U_match/I_CS_GANDX.U_CS_GANDX_SRL/I_K7.U_CS_GANDX_SRL_K7/U_CS_GAND_SRL_K
+7/I_USE_RPM_EQ0.U_GAND_SRL_UNSET/XST_VCC
+GND 		programmer_i/ila_t16_d96_i/XST_GND
+VCC 		programmer_i/ila_t16_d96_i/XST_VCC
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| ADV_N_pin                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<1>                           | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<2>                           | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<3>                           | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<4>                           | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<5>                           | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<6>                           | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<7>                           | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<8>                           | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<9>                           | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<10>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<11>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<12>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<13>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<14>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<15>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<16>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<17>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<18>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<19>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<20>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<21>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<22>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<23>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| A_pin<24>                          | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| CS_N_pin                           | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<0>                          | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<1>                          | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<2>                          | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<3>                          | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<4>                          | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<5>                          | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<6>                          | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<7>                          | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<8>                          | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<9>                          | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<10>                         | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<11>                         | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<12>                         | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<13>                         | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<14>                         | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| DQ_pin<15>                         | IOB33            | BIDIR     | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| OE_N_pin                           | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| WE_N_pin                           | IOB33            | OUTPUT    | LVCMOS25             |       | 12       | SLOW |              |          |          |
+| led_0                              | IOB              | OUTPUT    | LVCMOS15             |       | 12       | SLOW |              |          |          |
+| led_1                              | IOB              | OUTPUT    | LVCMOS15             |       | 12       | SLOW |              |          |          |
+| led_2                              | IOB              | OUTPUT    | LVCMOS15             |       | 12       | SLOW |              |          |          |
+| led_3                              | IOB              | OUTPUT    | LVCMOS15             |       | 12       | SLOW |              |          |          |
+| led_5                              | IOB              | OUTPUT    | LVCMOS15             |       | 12       | SLOW |              |          |          |
+| led_6                              | IOB              | OUTPUT    | LVCMOS15             |       | 12       | SLOW |              |          |          |
+| led_7                              | IOB              | OUTPUT    | LVCMOS15             |       | 12       | SLOW |              |          |          |
+| pci_exp_rxn<0>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<1>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<2>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<3>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<4>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<5>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<6>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxn<7>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<0>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<1>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<2>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<3>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<4>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<5>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<6>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_rxp<7>                     | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| pci_exp_txn<0>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<1>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<2>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<3>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<4>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<5>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<6>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txn<7>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<0>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<1>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<2>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<3>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<4>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<5>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<6>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| pci_exp_txp<7>                     | OPAD             | OUTPUT    |                      |       |          |      |              |          |          |
+| sys_clk_n                          | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| sys_clk_p                          | IPAD             | INPUT     |                      |       |          |      |              |          |          |
+| sys_rst_n                          | IOB33            | INPUT     | LVCMOS25             |       |          |      |              |          |          |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+A logic-level (pre-route) timing report can be generated by using Xilinx static
+timing analysis tools, Timing Analyzer (GUI) or TRCE (command line), with the
+mapped NCD and PCF files. Please note that this timing report will be generated
+using estimated delay information. For accurate numbers, please generate a
+timing report with the post Place and Route NCD file.
+
+For more information about the Timing Analyzer, consult the Xilinx Timing
+Analyzer Reference Manual; for more information about TRCE, consult the Xilinx
+Command Line Tools User Guide "TRACE" chapter.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+Use the "-detail" map option to print out Control Set Information.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

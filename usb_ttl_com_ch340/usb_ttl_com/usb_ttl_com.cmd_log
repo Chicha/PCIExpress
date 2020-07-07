@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "E:/V6/usb_ttl_com_ch340/usb_ttl_com/usb_ttl_com.xst" -ofn "E:/V6/usb_ttl_com_ch340/usb_ttl_com/usb_ttl_com.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vlx365t-ff1156-1 usb_ttl_com.ngc usb_ttl_com.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usb_ttl_com_map.ncd usb_ttl_com.ngd usb_ttl_com.pcf 
+par -w -intstyle ise -ol high -mt off usb_ttl_com_map.ncd usb_ttl_com.ncd usb_ttl_com.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml usb_ttl_com.twx usb_ttl_com.ncd -o usb_ttl_com.twr usb_ttl_com.pcf 
+bitgen -intstyle ise -f usb_ttl_com.ut usb_ttl_com.ncd 
+xst -intstyle ise -ifn "E:/V6/usb_ttl_com_ch340/usb_ttl_com/usb_ttl_com.xst" -ofn "E:/V6/usb_ttl_com_ch340/usb_ttl_com/usb_ttl_com.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc usb_ttl_com.ucf -p xc6vlx365t-ff1156-1 usb_ttl_com.ngc usb_ttl_com.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usb_ttl_com_map.ncd usb_ttl_com.ngd usb_ttl_com.pcf 
+par -w -intstyle ise -ol high -mt off usb_ttl_com_map.ncd usb_ttl_com.ncd usb_ttl_com.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml usb_ttl_com.twx usb_ttl_com.ncd -o usb_ttl_com.twr usb_ttl_com.pcf -ucf usb_ttl_com.ucf 
+bitgen -intstyle ise -f usb_ttl_com.ut usb_ttl_com.ncd 
+xst -intstyle ise -ifn "E:/V6/usb_ttl_com_ch340/usb_ttl_com/usb_ttl_com.xst" -ofn "E:/V6/usb_ttl_com_ch340/usb_ttl_com/usb_ttl_com.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc usb_ttl_com.ucf -p xc6vlx365t-ff1156-1 usb_ttl_com.ngc usb_ttl_com.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usb_ttl_com_map.ncd usb_ttl_com.ngd usb_ttl_com.pcf 
+par -w -intstyle ise -ol high -mt off usb_ttl_com_map.ncd usb_ttl_com.ncd usb_ttl_com.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml usb_ttl_com.twx usb_ttl_com.ncd -o usb_ttl_com.twr usb_ttl_com.pcf -ucf usb_ttl_com.ucf 
+bitgen -intstyle ise -f usb_ttl_com.ut usb_ttl_com.ncd 
+xst -intstyle ise -ifn "E:/V6/usb_ttl_com_ch340/usb_ttl_com/usb_ttl_com.xst" -ofn "E:/V6/usb_ttl_com_ch340/usb_ttl_com/usb_ttl_com.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc usb_ttl_com.ucf -p xc6vlx365t-ff1156-1 usb_ttl_com.ngc usb_ttl_com.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usb_ttl_com_map.ncd usb_ttl_com.ngd usb_ttl_com.pcf 
+par -w -intstyle ise -ol high -mt off usb_ttl_com_map.ncd usb_ttl_com.ncd usb_ttl_com.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml usb_ttl_com.twx usb_ttl_com.ncd -o usb_ttl_com.twr usb_ttl_com.pcf -ucf usb_ttl_com.ucf 
+bitgen -intstyle ise -f usb_ttl_com.ut usb_ttl_com.ncd 
+xst -intstyle ise -ifn "E:/V6/usb_ttl_com_ch340/usb_ttl_com/usb_ttl_com.xst" -ofn "E:/V6/usb_ttl_com_ch340/usb_ttl_com/usb_ttl_com.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc usb_ttl_com.ucf -p xc6vlx365t-ff1156-1 usb_ttl_com.ngc usb_ttl_com.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o usb_ttl_com_map.ncd usb_ttl_com.ngd usb_ttl_com.pcf 
+par -w -intstyle ise -ol high -mt off usb_ttl_com_map.ncd usb_ttl_com.ncd usb_ttl_com.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml usb_ttl_com.twx usb_ttl_com.ncd -o usb_ttl_com.twr usb_ttl_com.pcf -ucf usb_ttl_com.ucf 
+bitgen -intstyle ise -f usb_ttl_com.ut usb_ttl_com.ncd 

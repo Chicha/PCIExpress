@@ -1,0 +1,11 @@
+# PROMGEN: Xilinx Prom Generator P.20131013
+# Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+SOFTWARE_VERSION P.20131013
+DATE            06/20/2019 - 12:25
+SOURCE          E:\V6\PCIE\V6_pice_testv2.mcs
+DEVICE          16384K
+DATA_WIDTH      1
+FILL_DATA       0xFF
+SIGNATURE       0xBD9E63BD
+START_ADDRESS   0x00000000 END_ADDRESS 0x0043F07B DIRECTION_UP   "E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.bit" 6vlx365tff1156

@@ -1,0 +1,213 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Jun 20 07:55:23 2019
+# Process ID: 3836
+# Log file: E:/V6/PCIE/V6_pcie/planAhead_run_2/planAhead.log
+# Journal file: E:/V6/PCIE/V6_pcie/planAhead_run_2/planAhead.jou
+#-----------------------------------------------------------
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source E:/V6/PCIE/V6_pcie/pa.fromNetlist.tcl
+# create_project -name V6_pcie -dir "E:/V6/PCIE/V6_pcie/planAhead_run_3" -part xc6vlx365tff1156-1
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {E:/V6/PCIE/V6_pcie} {ipcore_dir} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "riffa_top_v6_pcie_v2_5.ucf" [current_fileset -constrset]
+Adding file 'E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.ucf' to fileset 'constrs_1'
+# add_files [list {riffa_top_v6_pcie_v2_5.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc6vlx365tff1156-1
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design riffa_top_v6_pcie_v2_5.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   riffa_top_v6_pcie_v2_5.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus txEng/upper/rMaxEntries[9 : 0] on block
+   riffa_endpoint_64 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus txEng/upper/rValid[4 : 0] on block
+   riffa_endpoint_64 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus txEng/upper/rLenEQ1[4 : 0] on block
+   riffa_endpoint_64 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus txEng/upper/rChnl[17 : 12] on block
+   riffa_endpoint_64 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus txEng/upper/Madd_n0318_lut[9 : 0] on
+   block riffa_endpoint_64 is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   rxEng/reorderQueue/data_input/Mmux_wCountClr[7]_rCount[7]_mux_41_OUT_rs_cy[5
+   : 1] on block riffa_endpoint_64 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus rxEng/reorderQueue/data_output/n0157[71
+   : 0] on block riffa_endpoint_64 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus rxEng/reorderQueue/data_output/n0158[35
+   : 0] on block riffa_endpoint_64 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus rxEng/reorderQueue/data_output/n0159[35
+   : 0] on block riffa_endpoint_64 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   txEng/upper/formatter/Mmux__rLen_rs_lut[9 : 3] on block riffa_endpoint_64 is
+   not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus txEng/upper/formatter/Mmux__rLen_rs_cy[5
+   : 2] on block riffa_endpoint_64 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus txEng/upper/formatter/Msub_n0070_cy[5 :
+   0] on block riffa_endpoint_64 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus txEng/upper/formatter/Mmux__rLen_rs_A[8
+   : 0] on block riffa_endpoint_64 is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   channels[0].channel/txPort/buffer/rConsumedHist[5 : 0] on block
+   riffa_endpoint_64 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   channels[1].channel/txPort/buffer/rConsumedHist[5 : 0] on block
+   riffa_endpoint_64 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   channels[2].channel/txPort/buffer/rConsumedHist[5 : 0] on block
+   riffa_endpoint_64 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   channels[3].channel/txPort/buffer/rConsumedHist[5 : 0] on block
+   riffa_endpoint_64 is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   core/axi_basic_top/rx_inst/rx_pipeline_inst/m_axis_rx_tuser<21 : 1> on block
+   riffa_top_v6_pcie_v2_5 is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus cfg_command<10 : 0> on block
+   riffa_top_v6_pcie_v2_5 is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus cfg_lstatus<15 : 0> on block
+   riffa_top_v6_pcie_v2_5 is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus cfg_lcommand<11 : 0> on block
+   riffa_top_v6_pcie_v2_5 is not reconstructed, because there are some missing
+   bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   core/axi_basic_top/rx_inst/rx_pipeline_inst/is_eof[4]_null_is_eof[4]_mux_18_O
+   UT<21 : 1> on block riffa_top_v6_pcie_v2_5 is not reconstructed, because
+   there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file riffa_top_v6_pcie_v2_5.edif ...
+ngc2edif: Total memory usage is 165164 kilobytes
+
+Parsing EDIF File [./planAhead_run_3/V6_pcie.data/cache/riffa_top_v6_pcie_v2_5_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_3/V6_pcie.data/cache/riffa_top_v6_pcie_v2_5_ngc_zx.edif]
+INFO: [Netlist 29-17] Analyzing 70 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-43] Netlist 'riffa_top_v6_pcie_v2_5' is not ideal for floorplanning, since the cellview 'riffa_endpoint_64' defined in file 'riffa_top_v6_pcie_v2_5.ngc' contains large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+Loading clock regions from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/virtex6lxt/xc6vlx365t/ClockRegion.xml
+Loading clock buffers from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/virtex6lxt/xc6vlx365t/ClockBuffers.xml
+Loading clock placement rules from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/virtex6/ClockPlacerRules.xml
+Loading clock capable ios from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/virtex6/ClockCapableIOBs.xml
+Loading package pin functions from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/PinFunctions.xml...
+Loading package from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/virtex6lxt/xc6vlx365t/ff1156/Package.xml
+Loading io standards from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex6/IOStandards.xml
+Loading device configuration modes from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/ConfigModes.xml
+Loading list of drcs for the architecture : E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex6/drc.xml
+Parsing UCF File [E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.ucf]
+Finished Parsing UCF File [E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 70 instances were transformed.
+  FDCP => FDCP (FDCE, FDPE, LDCE, LUT3, VCC): 2 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 62 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 6 instances
+
+Phase 0 | Netlist Checksum: 3fc82c4f
+link_design: Time (s): elapsed = 00:00:44 . Memory (MB): peak = 894.082 ; gain = 369.883
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin AA3 [get_ports {pci_exp_rxp[7]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin W3 [get_ports {pci_exp_rxp[6]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin U3 [get_ports {pci_exp_rxp[5]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin R3 [get_ports {pci_exp_rxp[4]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin N3 [get_ports {pci_exp_rxp[3]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin L3 [get_ports {pci_exp_rxp[2]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin K5 [get_ports {pci_exp_rxp[1]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin J3 [get_ports {pci_exp_rxp[0]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+save_constraints
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin A9 [get_ports sys_reset_n]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+save_constraints
+startgroup
+set_property package_pin AE13 [get_ports sys_reset_n]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+save_constraints
+exit
+ERROR: [PlanAhead 12-106] *** Exception: ui.h.b: Found deleted key in HTclEventBroker. Verify if the classes listed here call cleanup()
+HTclEvent: DEBUG_CORE_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_BUS_MODIFY   Classes: ui.views.aR 
+HTclEvent: DEBUG_PORT_CONFIG_CHANGE   Classes: ui.views.aR 
+HTclEvent: SIGNAL_MODIFY   Classes: ui.views.aR 
+ (See E:/V6/PCIE/V6_pcie\planAhead_pid3836.debug)
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu Jun 20 08:03:14 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

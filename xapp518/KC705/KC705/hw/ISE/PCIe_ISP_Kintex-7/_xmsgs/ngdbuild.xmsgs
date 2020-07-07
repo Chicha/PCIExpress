@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;pcie_pio_app/sys_clk&quot; TNM_NET = &quot;SYSCLK&quot; ;&gt; [F:/BaiduYunDownload/ML605/xapp518/KC705/KC705/hw/src/UCF/PCIe_ISP_BPI_Kintex.ucf(180)] was not distributed to the output pin TXOUTCLK of block pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].gt_wrapper_i/gtx_channel.gtxe2_channel_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;pcie_pio_app/sys_clk&quot; TNM_NET = &quot;SYSCLK&quot; ;&gt; [F:/BaiduYunDownload/ML605/xapp518/KC705/KC705/hw/src/UCF/PCIe_ISP_BPI_Kintex.ucf(180)] was not distributed to the output pin QPLLOUTREFCLK of block pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[4].pipe_quad.pipe_common.qpll_wrapper_i/gtx_common.gtxe2_common_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;pcie_pio_app/sys_clk&quot; TNM_NET = &quot;SYSCLK&quot; ;&gt; [F:/BaiduYunDownload/ML605/xapp518/KC705/KC705/hw/src/UCF/PCIe_ISP_BPI_Kintex.ucf(180)] was not distributed to the output pin QPLLOUTREFCLK of block pcie_pio_app/pcie_7x_v1_6_i/gt_top_i/pipe_wrapper_i/pipe_lane[0].pipe_quad.pipe_common.qpll_wrapper_i/gtx_common.gtxe2_common_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+</messages>
+

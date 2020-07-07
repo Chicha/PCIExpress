@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "F:/BaiduYunDownload/ML605/xapp518/KC705/KC705/hw/ISE/PCIe_ISP_Kintex-7/PCIe_ISP_top.xst" -ofn "F:/BaiduYunDownload/ML605/xapp518/KC705/KC705/hw/ISE/PCIe_ISP_Kintex-7/PCIe_ISP_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../../../Coregen -nt timestamp -uc F:/BaiduYunDownload/ML605/xapp518/KC705/KC705/hw/src/UCF/PCIe_ISP_BPI_Kintex.ucf -p xc7k325t-ffg900-2 PCIe_ISP_top.ngc PCIe_ISP_top.ngd  
+map -intstyle ise -p xc7k325t-ffg900-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o PCIe_ISP_top_map.ncd PCIe_ISP_top.ngd PCIe_ISP_top.pcf 
+par -w -intstyle ise -ol high -mt off PCIe_ISP_top_map.ncd PCIe_ISP_top.ncd PCIe_ISP_top.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml PCIe_ISP_top.twx PCIe_ISP_top.ncd -o PCIe_ISP_top.twr PCIe_ISP_top.pcf 

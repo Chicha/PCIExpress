@@ -1,0 +1,273 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/pa.fromHdl.tcl
+# create_project -name PCIe_ISP -dir "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/planAhead_run_2" -part xc6vlx240tff1156-1
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "PCIe_ISP_top.ucf" [current_fileset -constrset]
+Adding file 'F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {../../src/PCIe/pcie_bram_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/gtx_tx_sync_rate_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/gtx_rx_valid_filter_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/gtx_drp_chanalign_fix_3752_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PIO/PIO_EP_MEM_ACCESS.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PIO/PIO_64_TX_ENGINE.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PIO/PIO_64_RX_ENGINE.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PIO/data_transfer.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/pcie_pipe_misc_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/pcie_pipe_lane_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/pcie_brams_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/gtx_wrapper_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PIO/PIO_TO_CTRL.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PIO/PIO_EP.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/pcie_upconfig_fix_3451_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/pcie_pipe_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/pcie_gtx_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/pcie_bram_top_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PIO/PIO.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/pcie_reset_delay_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/pcie_clocking_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/pcie_2_0_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PIO/pcie_app_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe/v6_pcie_v1_7.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/xilinx_pcie_2_0_ep_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/programmer/programmer.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../../src/PCIe_ISP_top.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top PCIe_ISP_top $srcset
+# add_files [list {PCIe_ISP_top.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6vlx240tff1156-1
+Using Verific elaboration
+Parsing VHDL file "E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/pcie_bram_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/gtx_tx_sync_rate_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/gtx_rx_valid_filter_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/gtx_drp_chanalign_fix_3752_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PIO/PIO_EP_MEM_ACCESS.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PIO/PIO_64_TX_ENGINE.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PIO/PIO_64_RX_ENGINE.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PIO/data_transfer.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/pcie_pipe_misc_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/pcie_pipe_lane_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/pcie_brams_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/gtx_wrapper_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PIO/PIO_TO_CTRL.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PIO/PIO_EP.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/pcie_upconfig_fix_3451_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/pcie_pipe_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/pcie_gtx_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/pcie_bram_top_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PIO/PIO.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/pcie_reset_delay_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/pcie_clocking_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/pcie_2_0_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PIO/pcie_app_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe/v6_pcie_v1_7.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/xilinx_pcie_2_0_ep_v6.v" into library work
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/programmer/programmer.v" into library work
+Parsing verilog file "config.v" included at line 75. [F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/programmer/programmer.v:75]
+Analyzing Verilog file "F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PCIe_ISP_top.v" into library work
+CRITICAL WARNING: [EDIF 20-96] Could not resolve non-primitive black box cell 'config_FIFO' instantiated as 'config_FIFO_i' [F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/src/PIO/data_transfer.v:121]
+Resolution: File names need to match cell names: an EDIF definition will be found in config_FIFO.edf; an HDL definition may be placed in any Verilog/VHDL file.
+INFO: [Netlist 29-17] Analyzing 22 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/virtex6lxt/xc6vlx240t/ClockRegion.xml
+Loading clock buffers from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/virtex6lxt/xc6vlx240t/ClockBuffers.xml
+Loading clock placement rules from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/virtex6/ClockPlacerRules.xml
+Loading clock capable ios from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/virtex6/ClockCapableIOBs.xml
+Loading package pin functions from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/PinFunctions.xml...
+Loading package from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/virtex6lxt/xc6vlx240t/ff1156/Package.xml
+Loading io standards from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex6/IOStandards.xml
+Loading device configuration modes from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/ConfigModes.xml
+Loading list of drcs for the architecture : E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex6/drc.xml
+Parsing UCF File [F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.ucf]
+Finished Parsing UCF File [F:/BaiduYunDownload/ML605/xapp518/ML605/ML605/hw/ISE/PCIe_ISP_Virtex-6/PCIe_ISP_top.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 22 instances were transformed.
+  FDCP => FDCP (FDCE, FDPE, LDCE, LUT3, VCC): 6 instances
+  IOBUF => IOBUF (OBUFT, IBUF): 16 instances
+
+Phase 0 | Netlist Checksum: 93ed34ad
+open_rtl_design: Time (s): elapsed = 00:00:33 . Memory (MB): peak = 806.793 ; gain = 276.637
+update_compile_order -fileset sim_1
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+set_property package_pin "" [get_ports [list  {pci_exp_txp[7]}]]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin J3 [get_ports {pci_exp_rxp[0]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin K5 [get_ports {pci_exp_rxp[1]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin L3 [get_ports {pci_exp_rxp[2]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin N3 [get_ports {pci_exp_rxp[3]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin R3 [get_ports {pci_exp_rxp[4]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin U3 [get_ports {pci_exp_rxp[5]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin W3 [get_ports {pci_exp_rxp[6]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin AA3 [get_ports {pci_exp_rxp[7]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+set_property package_pin "" [get_ports [list  {pci_exp_txp[4]}]]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin F1 [get_ports {pci_exp_txp[0]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin H1 [get_ports {pci_exp_txp[1]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin K1 [get_ports {pci_exp_txp[2]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin M1 [get_ports {pci_exp_txp[3]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin P1 [get_ports {pci_exp_txp[4]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin T1 [get_ports {pci_exp_txp[5]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+startgroup
+set_property package_pin V1 [get_ports {pci_exp_txp[6]}]
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+endgroup
+INFO: [Power 33-160] Power Analysis is not supported for 6-series devices.
+INFO: [Common 17-14] Message 'Power 33-160' appears 50 times and further instances of the messages will be disabled. Use the Tcl command set_msg_limit to change the current settings.
+startgroup
+set_property package_pin Y1 [get_ports {pci_exp_txp[7]}]
+endgroup
+startgroup
+set_property package_pin AE13 [get_ports PCIe_reset_n]
+endgroup
+startgroup
+set_property package_pin P6 [get_ports sys_clk_p]
+endgroup
+startgroup
+set_property package_pin AP22 [get_ports led_0]
+endgroup
+startgroup
+set_property package_pin AP21 [get_ports led_1]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Thu May 16 22:58:01 2019...
+INFO: [Common 17-83] Releasing license: PlanAhead

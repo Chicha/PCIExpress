@@ -1,0 +1,425 @@
+Release 14.7 - Bitgen P.20131013 (lin64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Loading device for application Rf_Device from file '6vlx365t.nph' in environment
+/opt/Xilinx/14.7/ISE_DS/ISE/.
+   "riffa_top_v6_pcie_v2_5" is an NCD, version 3.2, device xc6vlx365t, package
+ff1156, speed -1
+Opened constraints file riffa_top_v6_pcie_v2_5.pcf.
+
+Sun Jul  5 00:28:24 2020
+
+/opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/bitgen -intstyle ise -w -g Binary:no -g Compress -g CRC:Enable -g ConfigRate:2 -g CclkPin:PullUp -g M0Pin:PullUp -g M1Pin:PullUp -g M2Pin:PullUp -g ProgPin:PullUp -g InitPin:Pullup -g CsPin:Pullup -g DinPin:Pullup -g BusyPin:Pullup -g RdWrPin:Pullup -g HswapenPin:PullUp -g TckPin:PullUp -g TdiPin:PullUp -g TdoPin:PullUp -g TmsPin:PullUp -g Disable_JTAG:No -g UnusedPin:PullUp -g UserID:0xFFFFFFFF -g ConfigFallback:Enable -g BPI_page_size:1 -g OverTempPowerDown:Disable -g USR_ACCESS:None -g next_config_addr:None -g JTAG_SysMon:Enable -g DCIUpdateMode:AsRequired -g StartUpClk:CClk -g DONE_cycle:4 -g GTS_cycle:5 -g GWE_cycle:6 -g Match_cycle:Auto -g Security:None -g DonePipe:Yes -g DriveDone:No -g Encrypt:No riffa_top_v6_pcie_v2_5.ncd 
+
+INFO:Bitgen:40 - Replacing "Auto" with "NoWait" for option "Match_cycle".  Most
+   commonly, bitgen has determined and will use a specific value instead of the
+   generic command-line value of "Auto".  Alternately, this message appears if
+   the same option is specified multiple times on the command-line.  In this
+   case, the option listed last will be used.
+Summary of Bitgen Options:
++----------------------+----------------------+
+| Option Name          | Current Setting      |
++----------------------+----------------------+
+| Compress             | (Enabled)            |
++----------------------+----------------------+
+| Readback             | (Not Specified)*     |
++----------------------+----------------------+
+| CRC                  | Enable**             |
++----------------------+----------------------+
+| DebugBitstream       | No*                  |
++----------------------+----------------------+
+| ConfigRate           | 2**                  |
++----------------------+----------------------+
+| StartupClk           | Cclk**               |
++----------------------+----------------------+
+| CclkPin              | Pullup**             |
++----------------------+----------------------+
+| DonePin              | Pullup*              |
++----------------------+----------------------+
+| HswapenPin           | Pullup**             |
++----------------------+----------------------+
+| M0Pin                | Pullup**             |
++----------------------+----------------------+
+| M1Pin                | Pullup**             |
++----------------------+----------------------+
+| M2Pin                | Pullup**             |
++----------------------+----------------------+
+| ProgPin              | Pullup**             |
++----------------------+----------------------+
+| InitPin              | Pullup**             |
++----------------------+----------------------+
+| CsPin                | Pullup**             |
++----------------------+----------------------+
+| DinPin               | Pullup**             |
++----------------------+----------------------+
+| BusyPin              | Pullup**             |
++----------------------+----------------------+
+| RdWrPin              | Pullup**             |
++----------------------+----------------------+
+| TckPin               | Pullup**             |
++----------------------+----------------------+
+| TdiPin               | Pullup**             |
++----------------------+----------------------+
+| TdoPin               | Pullup**             |
++----------------------+----------------------+
+| TmsPin               | Pullup**             |
++----------------------+----------------------+
+| UnusedPin            | Pullup               |
++----------------------+----------------------+
+| GWE_cycle            | 6**                  |
++----------------------+----------------------+
+| GTS_cycle            | 5**                  |
++----------------------+----------------------+
+| OverTempPowerDown    | Disable**            |
++----------------------+----------------------+
+| LCK_cycle            | NoWait*              |
++----------------------+----------------------+
+| Match_cycle          | NoWait               |
++----------------------+----------------------+
+| DONE_cycle           | 4**                  |
++----------------------+----------------------+
+| Persist              | No*                  |
++----------------------+----------------------+
+| DriveDone            | No**                 |
++----------------------+----------------------+
+| DonePipe             | Yes                  |
++----------------------+----------------------+
+| Security             | None**               |
++----------------------+----------------------+
+| UserID               | 0xFFFFFFFF**         |
++----------------------+----------------------+
+| ActiveReconfig       | No*                  |
++----------------------+----------------------+
+| Encrypt              | No**                 |
++----------------------+----------------------+
+| EncryptKeySelect     | bbram*               |
++----------------------+----------------------+
+| Key0                 | pick*                |
++----------------------+----------------------+
+| StartCBC             | pick*                |
++----------------------+----------------------+
+| HKey                 | pick*                |
++----------------------+----------------------+
+| KeyFile              | (Not Specified)*     |
++----------------------+----------------------+
+| DCIUpdateMode        | AsRequired           |
++----------------------+----------------------+
+| ConfigFallback       | Enable**             |
++----------------------+----------------------+
+| SelectMAPAbort       | Enable*              |
++----------------------+----------------------+
+| BPI_page_size        | 1**                  |
++----------------------+----------------------+
+| BPI_1st_read_cycle   | 1*                   |
++----------------------+----------------------+
+| next_config_addr     | None**               |
++----------------------+----------------------+
+| DoneSignalsPowerDown | Disable*             |
++----------------------+----------------------+
+| InitSignalsError     | Enable*              |
++----------------------+----------------------+
+| ICAP_Encryption      | Disable*             |
++----------------------+----------------------+
+| SysmonPartialReconfig | Disable*             |
++----------------------+----------------------+
+| SecAll               | No*                  |
++----------------------+----------------------+
+| SecError             | No*                  |
++----------------------+----------------------+
+| SecStatus            | No*                  |
++----------------------+----------------------+
+| JTAG_SysMon          | Enable**             |
++----------------------+----------------------+
+| Disable_JTAG         | No**                 |
++----------------------+----------------------+
+| Partial              | (Not Specified)*     |
++----------------------+----------------------+
+| TIMER_CFG            | None*                |
++----------------------+----------------------+
+| TIMER_USR            | None*                |
++----------------------+----------------------+
+| USR_ACCESS           | None**               |
++----------------------+----------------------+
+| TimeStamp            | Default*             |
++----------------------+----------------------+
+| IEEE1532             | No*                  |
++----------------------+----------------------+
+| Binary               | No**                 |
++----------------------+----------------------+
+ *  Default setting.
+ ** The specified setting matches the default setting.
+
+There were 0 CONFIG constraint(s) processed from riffa_top_v6_pcie_v2_5.pcf.
+
+
+Running DRC.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/asyncCo
+   mpare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[2].channel/rxPort/mainFifo/fifo/asy
+   ncCompare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[3].channel/rxPort/mainFifo/fifo/asy
+   ncCompare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[0].channel/rxPort/mainFifo/fifo/asy
+   ncCompare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/asyncCo
+   mpare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[1].channel/rxPort/mainFifo/fifo/asy
+   ncCompare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/asyncCo
+   mpare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/asyncCo
+   mpare/wDirSet is sourced by a combinatorial pin. This is not good design
+   practice. Use the CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM11_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM10_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM9_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM5_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM3_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM4_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM6_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM8_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[0].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM7_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM8_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM11_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM10_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM5_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM11_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM3_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM4_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM6_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM7_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM4_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM11_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM3_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM4_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM6_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM9_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM3_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM8_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM10_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM5_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM7_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[1].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM5_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[2].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM9_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM6_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM7_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM9_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM8_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/channels[3].channel/txPort/gate/fifo/mem/Mr
+   am_rRAM10_RAMD_D1_O> is incomplete. The signal does not drive any load pins
+   in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/reorderQueue/mapRam/Mram_rRAM_RAMD_D1
+   _O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/reorderQueue/pktRam/Mram_rRAM1_RAMD_D
+   1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/reorderQueue/pktRam/Mram_rRAM2_RAMD_D
+   1_O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/reorderQueue/data_input/posRam/Mram_r
+   RAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/reorderQueue/data_input/posRam/Mram_r
+   RAM2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM4_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM3_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM1_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/reorderQueue/data_input/countRam/Mram
+   _rRAM1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in
+   the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM5_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM2_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM6_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM7_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM8_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM9_RAMD_D1_
+   O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM12_RAMD_D1
+   _O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM11_RAMD_D1
+   _O> is incomplete. The signal does not drive any load pins in the design.
+WARNING:PhysDesignRules:367 - The signal
+   <app/endpoint/endpoint64.endpoint/rxEng/rxEngReq/fifo/mem/Mram_rRAM10_RAMD_D1
+   _O> is incomplete. The signal does not drive any load pins in the design.
+DRC detected 0 errors and 70 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
+Creating bit map...
+Saving bit stream in "riffa_top_v6_pcie_v2_5.bit".
+Bitstream compression saved 60447968 bits.
+Bitstream generation is complete.

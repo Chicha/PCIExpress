@@ -1,0 +1,486 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+INFO: [Common 17-81] Feature available: PartialReconfiguration
+source E:/V6/PCIE/V6_pcie/pa.fromHdl.tcl
+# create_project -name V6_pcie -dir "E:/V6/PCIE/V6_pcie/planAhead_run_1" -part xc6vlx365tff1156-1
+# set_param project.pinAheadLayout yes
+# set srcset [get_property srcset [current_run -impl]]
+# set_property target_constrs_file "riffa_top_v6_pcie_v2_5.ucf" [current_fileset -constrset]
+Adding file 'E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/pcie_bram_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/gtx_tx_sync_rate_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/gtx_rx_valid_filter_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/pcie_pipe_misc_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/pcie_pipe_lane_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/pcie_brams_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/gtx_wrapper_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/axi_basic_tx_thrtl_ctl.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/axi_basic_tx_pipeline.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/axi_basic_rx_pipeline.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/axi_basic_rx_null_gen.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/pcie_upconfig_fix_3451_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/pcie_pipe_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/pcie_gtx_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/pcie_bram_top_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/axi_basic_tx.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/axi_basic_rx.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/pcie_reset_delay_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/pcie_clocking_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/pcie_2_0_v6.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/axi_basic_top.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {ipcore_dir/v6_pcie_v2_5/source/v6_pcie_v2_5.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/ff.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/syncff.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/ram_2clk_1w_1r.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/ram_1clk_1w_1r.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/sync_fifo.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/cross_domain_signal.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/async_fifo.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_port_writer.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_port_monitor_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_port_monitor_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_port_monitor_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_port_channel_gate_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_port_channel_gate_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_port_channel_gate_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_port_buffer_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_port_buffer_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_port_buffer_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_engine_selector.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_engine_formatter_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_engine_formatter_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_engine_formatter_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/sg_list_requester.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/sg_list_reader_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/sg_list_reader_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/sg_list_reader_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/rx_port_requester_mux.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/rx_port_reader.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/rx_port_channel_gate.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/reorder_queue_output.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/reorder_queue_input.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/fifo_packer_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/fifo_packer_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/fifo_packer_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/async_fifo_fwft.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_qword_aligner_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_qword_aligner_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_port_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_port_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_port_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_engine_upper_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_engine_upper_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_engine_upper_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_engine_lower_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_engine_lower_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_engine_lower_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/rx_port_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/rx_port_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/rx_port_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/rx_engine_req.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/reorder_queue.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/interrupt_controller.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_engine_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_engine_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/tx_engine_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/translation_layer_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/translation_layer_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/translation_layer_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/rx_engine_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/rx_engine_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/rx_engine_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/recv_credit_flow_ctrl.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/interrupt.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/demux_1_to_n.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/channel_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/channel_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/channel_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/translation_layer.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/riffa_endpoint_64.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/riffa_endpoint_32.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/riffa_endpoint_128.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/riffa_endpoint.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../riffa_hdl/chnl_tester.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../ml605/riffa_adapter_v6_pcie_v2_5.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set hdlfile [add_files [list {../ml605/riffa_top_v6_pcie_v2_5.v}]]
+# set_property file_type Verilog $hdlfile
+# set_property library work $hdlfile
+# set_property top riffa_top_v6_pcie_v2_5 $srcset
+# add_files [list {riffa_top_v6_pcie_v2_5.ucf}] -fileset [get_property constrset [current_run]]
+# open_rtl_design -part xc6vlx365tff1156-1
+Using Verific elaboration
+Parsing VHDL file "E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/pcie_bram_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/gtx_tx_sync_rate_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/gtx_rx_valid_filter_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/pcie_pipe_misc_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/pcie_pipe_lane_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/pcie_brams_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/gtx_wrapper_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/axi_basic_tx_thrtl_ctl.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/axi_basic_tx_pipeline.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/axi_basic_rx_pipeline.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/axi_basic_rx_null_gen.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/pcie_upconfig_fix_3451_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/pcie_pipe_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/pcie_gtx_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/pcie_bram_top_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/axi_basic_tx.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/axi_basic_rx.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/pcie_reset_delay_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/pcie_clocking_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/pcie_2_0_v6.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/axi_basic_top.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/V6_pcie/ipcore_dir/v6_pcie_v2_5/source/v6_pcie_v2_5.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/ff.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/syncff.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/ram_2clk_1w_1r.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 64. [E:/V6/PCIE/riffa_hdl/ram_2clk_1w_1r.v:64]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/ram_1clk_1w_1r.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 63. [E:/V6/PCIE/riffa_hdl/ram_1clk_1w_1r.v:63]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/sync_fifo.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 77. [E:/V6/PCIE/riffa_hdl/sync_fifo.v:77]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/cross_domain_signal.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/async_fifo.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 80. [E:/V6/PCIE/riffa_hdl/async_fifo.v:80]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_port_writer.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 109. [E:/V6/PCIE/riffa_hdl/tx_port_writer.v:109]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_port_monitor_64.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 90. [E:/V6/PCIE/riffa_hdl/tx_port_monitor_64.v:90]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_port_monitor_32.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 90. [E:/V6/PCIE/riffa_hdl/tx_port_monitor_32.v:90]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_port_monitor_128.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 90. [E:/V6/PCIE/riffa_hdl/tx_port_monitor_128.v:90]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_port_channel_gate_64.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_port_channel_gate_32.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_port_channel_gate_128.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_port_buffer_64.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 82. [E:/V6/PCIE/riffa_hdl/tx_port_buffer_64.v:82]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_port_buffer_32.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 72. [E:/V6/PCIE/riffa_hdl/tx_port_buffer_32.v:72]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_port_buffer_128.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 82. [E:/V6/PCIE/riffa_hdl/tx_port_buffer_128.v:82]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_engine_selector.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_engine_formatter_64.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_engine_formatter_32.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_engine_formatter_128.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/sg_list_requester.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 100. [E:/V6/PCIE/riffa_hdl/sg_list_requester.v:100]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/sg_list_reader_64.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/sg_list_reader_32.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/sg_list_reader_128.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/rx_port_requester_mux.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/rx_port_reader.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 119. [E:/V6/PCIE/riffa_hdl/rx_port_reader.v:119]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/rx_port_channel_gate.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/reorder_queue_output.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 63. [E:/V6/PCIE/riffa_hdl/reorder_queue_output.v:63]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/reorder_queue_input.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 62. [E:/V6/PCIE/riffa_hdl/reorder_queue_input.v:62]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/fifo_packer_64.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/fifo_packer_32.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/fifo_packer_128.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/async_fifo_fwft.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 77. [E:/V6/PCIE/riffa_hdl/async_fifo_fwft.v:77]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_qword_aligner_64.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_qword_aligner_128.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_port_64.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 97. [E:/V6/PCIE/riffa_hdl/tx_port_64.v:97]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_port_32.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 97. [E:/V6/PCIE/riffa_hdl/tx_port_32.v:97]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_port_128.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 97. [E:/V6/PCIE/riffa_hdl/tx_port_128.v:97]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_engine_upper_64.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 116. [E:/V6/PCIE/riffa_hdl/tx_engine_upper_64.v:116]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_engine_upper_32.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 117. [E:/V6/PCIE/riffa_hdl/tx_engine_upper_32.v:117]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_engine_upper_128.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 114. [E:/V6/PCIE/riffa_hdl/tx_engine_upper_128.v:114]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_engine_lower_64.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_engine_lower_32.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_engine_lower_128.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/rx_port_64.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 122. [E:/V6/PCIE/riffa_hdl/rx_port_64.v:122]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/rx_port_32.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 122. [E:/V6/PCIE/riffa_hdl/rx_port_32.v:122]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/rx_port_128.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 122. [E:/V6/PCIE/riffa_hdl/rx_port_128.v:122]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/rx_engine_req.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 103. [E:/V6/PCIE/riffa_hdl/rx_engine_req.v:103]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/reorder_queue.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 69. [E:/V6/PCIE/riffa_hdl/reorder_queue.v:69]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/interrupt_controller.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_engine_64.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 115. [E:/V6/PCIE/riffa_hdl/tx_engine_64.v:115]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_engine_32.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 115. [E:/V6/PCIE/riffa_hdl/tx_engine_32.v:115]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/tx_engine_128.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 115. [E:/V6/PCIE/riffa_hdl/tx_engine_128.v:115]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/translation_layer_64.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/translation_layer_32.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/translation_layer_128.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/rx_engine_64.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 129. [E:/V6/PCIE/riffa_hdl/rx_engine_64.v:129]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/rx_engine_32.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 128. [E:/V6/PCIE/riffa_hdl/rx_engine_32.v:128]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/rx_engine_128.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 128. [E:/V6/PCIE/riffa_hdl/rx_engine_128.v:128]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/recv_credit_flow_ctrl.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/interrupt.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/demux_1_to_n.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 63. [E:/V6/PCIE/riffa_hdl/demux_1_to_n.v:63]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/channel_64.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 141. [E:/V6/PCIE/riffa_hdl/channel_64.v:141]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/channel_32.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 141. [E:/V6/PCIE/riffa_hdl/channel_32.v:141]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/channel_128.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 141. [E:/V6/PCIE/riffa_hdl/channel_128.v:141]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/translation_layer.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/riffa_endpoint_64.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 118. [E:/V6/PCIE/riffa_hdl/riffa_endpoint_64.v:118]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/riffa_endpoint_32.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 117. [E:/V6/PCIE/riffa_hdl/riffa_endpoint_32.v:117]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/riffa_endpoint_128.v" into library work
+Parsing verilog file "E:/V6/PCIE/riffa_hdl/common_functions.v" included at line 120. [E:/V6/PCIE/riffa_hdl/riffa_endpoint_128.v:120]
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/riffa_endpoint.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/riffa_hdl/chnl_tester.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/ml605/riffa_adapter_v6_pcie_v2_5.v" into library work
+Analyzing Verilog file "E:/V6/PCIE/ml605/riffa_top_v6_pcie_v2_5.v" into library work
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+Loading clock regions from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/virtex6lxt/xc6vlx365t/ClockRegion.xml
+Loading clock buffers from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/virtex6lxt/xc6vlx365t/ClockBuffers.xml
+Loading clock placement rules from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/virtex6/ClockPlacerRules.xml
+Loading clock capable ios from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data/parts/xilinx/virtex6/ClockCapableIOBs.xml
+Loading package pin functions from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/PinFunctions.xml...
+Loading package from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/virtex6lxt/xc6vlx365t/ff1156/Package.xml
+Loading io standards from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex6/IOStandards.xml
+Loading device configuration modes from E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\parts/xilinx/virtex6/ConfigModes.xml
+Loading list of drcs for the architecture : E:/ise14_7/ISE14.7/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/virtex6/drc.xml
+Parsing UCF File [E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.ucf]
+Finished Parsing UCF File [E:/V6/PCIE/V6_pcie/riffa_top_v6_pcie_v2_5.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  FDCP => FDCP (FDCE, FDPE, LDCE, LUT3, VCC): 8 instances
+
+Phase 0 | Netlist Checksum: 8160c4d0
+open_rtl_design: Time (s): elapsed = 00:00:34 . Memory (MB): peak = 956.352 ; gain = 427.449
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x00000000112142ea, pid=3504, tid=2548
+#
+# JRE version: 7.0_17-b02
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (23.7-b01 mixed mode windows-amd64 compressed oops)
+# Problematic frame:
+# C  [librdi_filemgmt.dll+0xb42ea]  HADGDesignGraphMgr::updateTopAndCompileOrderIfNecessary+0x196ca
+#
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# An error report file with more information is saved as:
+# E:\V6\PCIE\V6_pcie\hs_err_pid3504.log
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+# The crash happened outside the Java Virtual Machine in native code.
+# See problematic frame for where to report the bug.
+#

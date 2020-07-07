@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/ise/Downloads/V6_365T/V6_365T/PCIE_riffa/V6_pcie/riffa_top_v6_pcie_v2_5.ncd
+OUTFILE=/home/ise/Downloads/V6_365T/V6_365T/PCIE_riffa/V6_pcie/riffa_top_v6_pcie_v2_5.bit
+FAMILY=Virtex6
+PART=xc6vlx365t-1ff1156
+WORKINGDIR=/home/ise/Downloads/V6_365T/V6_365T/PCIE_riffa/V6_pcie
+LICENSE=ISE
+USER_INFO=211846787_0_0_023

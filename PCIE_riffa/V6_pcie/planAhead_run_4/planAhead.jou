@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Thu Jun 20 08:18:18 2019
+# Process ID: 7620
+# Log file: E:/V6/PCIE/V6_pcie/planAhead_run_4/planAhead.log
+# Journal file: E:/V6/PCIE/V6_pcie/planAhead_run_4/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/V6/PCIE/V6_pcie/pa.fromNetlist.tcl
+startgroup
+set_property package_pin P6 [get_ports sys_clk_p]
+endgroup
+startgroup
+set_property package_pin AP22 [get_ports led_0]
+endgroup
+startgroup
+set_property package_pin AP21 [get_ports led_1]
+endgroup
+startgroup
+set_property package_pin A20 [get_ports led_2]
+endgroup
+startgroup
+set_property package_pin AP20 [get_ports led_2]
+endgroup
+save_constraints
